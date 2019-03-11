@@ -115,7 +115,7 @@ body {
 .coverpicture {
   /* {{ site.baseurl }} 在此处不起作用，应手动替换为/blog */
   /* background-image: url('{{ site.baseurl }}/images/architecture-building-city-1121782.jpg'); */
-  background-image: url('/blog/images/architecture-building-city-1121782.jpg');
+  background-image: url('/images/architecture-building-city-1121782.jpg');
   background-position: center center;
   background-size: cover
 }
