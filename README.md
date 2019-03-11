@@ -5,3 +5,5 @@ Data for [aaronszxia.github.io](aaronszxia.github.io). Includes customization of
 All content on this site is distributed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
 
 You are free to copy and re-use any and all of the code contained here without contacting me.
+
+AaronszXia.github.io-coverpicture
