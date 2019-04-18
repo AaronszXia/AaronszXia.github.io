@@ -116,7 +116,7 @@ body {
   /* {{ site.baseurl }} 在此处不起作用，应手动替换为/blog */
   /* 不应该用background-image: url('{{ site.baseurl }}/images/architecture-building-city-1121782.jpg'); */
   /* 应该用 background-image: url('/images/architecture-building-city-1121782.jpg'); */
-  background-image: url('https://imgchr.com/i/ESHEdS');
+  background-image: url('https://s2.ax1x.com/2019/04/18/ESHEdS.jpg');
   background-position: center center;
   background-size: cover
 }
