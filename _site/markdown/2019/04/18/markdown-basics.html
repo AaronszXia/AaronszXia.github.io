@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+<head>
+  <!-- Enable responsive viewport -->
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  
+  <title>Markdown Basics</title>
+  
+  <meta name="author" content="Aaronsz Xia">
+
+  <!-- Bootstrap styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles -->
+  <link href="/jekyll-bootstrap/css/style.css" rel="stylesheet">
+  <link href="/jekyll-bootstrap/css/main.css" rel="stylesheet">
+
+  <!-- Fav and touch icons -->
+  <!-- Update these with your own images -->
+  <link rel="shortcut icon" href="/jekyll-bootstrap/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/jekyll-bootstrap/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/jekyll-bootstrap/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/jekyll-bootstrap/images/apple-touch-icon-114x114.png">
+
+  <!-- atom & rss feed -->
+  <link href="/jekyll-bootstrap/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <link href="/jekyll-bootstrap/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  <!-- Font Awesome 图标库 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column h-100">
+  <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container d-flex justify-content-between">
+      
+      <a class="navbar-brand" href="/jekyll-bootstrap/index.html">Aaronsz</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarsExampleDefault" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <!-- <li class="nav-item active">
+          <a class="nav-link" href="/jekyll-bootstrap/index.html">Home<span class="sr-only">(current)</span></a>
+        </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/cv">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://aaronszxia.github.io/">Cover Page</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search (currently unavailable)"
+            aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div>
+  <h1>Markdown Basics </h1>
+</div>
+
+<div>
+  <span>18 April 2019</span>
+  
+    <a href="https://daringfireball.net/" target="_blank" rel="noopener noreferrer">JOHN GRUBER</a>
+  
+</div>
+
+<div>
+  <!-- Markdown: Basics
+================ -->
+
+<ul id="ProjectSubmenu">
+    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
+    <li><a class="selected" title="Markdown Basics">Basics</a></li>
+    <li><a href="/projects/markdown/syntax" title="Markdown Syntax Documentation">Syntax</a></li>
+    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
+    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
+</ul>
+
+<h2 id="getting-the-gist-of-markdowns-formatting-syntax">Getting the Gist of Markdown’s Formatting Syntax</h2>
+
+<p>This page offers a brief overview of what it’s like to use Markdown. The <a href="/projects/markdown/syntax" title="Markdown Syntax">syntax page</a> provides complete, detailed documentation for every feature, but Markdown should be very easy to pick up simply by looking at a few examples of it in action. The examples on this page are written in a before/after style, showing example syntax and the HTML output produced by Markdown.</p>
+
+<p>It’s also helpful to simply try Markdown out; the <a href="/projects/markdown/dingus" title="Markdown Dingus">Dingus</a> is a web application that allows you type your own Markdown-formatted text and translate it to XHTML.</p>
+
+<p><strong>Note:</strong> This document is itself written using Markdown; you can <a href="/projects/markdown/basics.text">see the source for it by adding ‘.text’ to the URL</a>.</p>
+
+<h2 id="paragraphs-headers-blockquotes">Paragraphs, Headers, Blockquotes</h2>
+
+<p>A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line – a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
+
+<p>Markdown offers two styles of headers: <em>Setext</em> and <em>atx</em>. Setext-style headers for <code class="highlighter-rouge">&lt;h1&gt;</code> and <code class="highlighter-rouge">&lt;h2&gt;</code> are created by “underlining” with equal signs (<code class="highlighter-rouge">=</code>) and hyphens (<code class="highlighter-rouge">-</code>), respectively. To create an atx-style header, you put 1-6 hash marks (<code class="highlighter-rouge">#</code>) at the beginning of the line – the number of hashes equals the resulting HTML header level.</p>
+
+<p>Blockquotes are indicated using email-style ‘<code class="highlighter-rouge">&gt;</code>’ angle brackets.</p>
+
+<p>Markdown:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">A First Level Header
+====================
+</span>
+<span class="gh">A Second Level Header
+---------------------
+</span>
+Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.
+
+The quick brown fox jumped over the lazy
+dog's back.
+
+<span class="gu">### Header 3</span>
+<span class="gt">
+&gt; This is a blockquote.</span>
+<span class="gt">&gt; </span>
+<span class="gt">&gt; This is the second paragraph in the blockquote.</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; ## This is an H2 in a blockquote</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>A First Level Header<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;h2&gt;</span>A Second Level Header<span class="nt">&lt;/h2&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>The quick brown fox jumped over the lazy
+dog's back.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;h3&gt;</span>Header 3<span class="nt">&lt;/h3&gt;</span>
+
+<span class="nt">&lt;blockquote&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is a blockquote.<span class="nt">&lt;/p&gt;</span>
+    
+    <span class="nt">&lt;p&gt;</span>This is the second paragraph in the blockquote.<span class="nt">&lt;/p&gt;</span>
+    
+    <span class="nt">&lt;h2&gt;</span>This is an H2 in a blockquote<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre></div></div>
+
+<h3 id="phrase-emphasis">Phrase Emphasis</h3>
+
+<p>Markdown uses asterisks and underscores to indicate spans of emphasis.</p>
+
+<p>Markdown:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Some of these words <span class="ge">*are emphasized*</span>.
+Some of these words _are emphasized also_.
+
+Use two asterisks for <span class="gs">**strong emphasis**</span>.
+Or, if you prefer, __use two underscores instead__.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Some of these words <span class="nt">&lt;em&gt;</span>are emphasized<span class="nt">&lt;/em&gt;</span>.
+Some of these words <span class="nt">&lt;em&gt;</span>are emphasized also<span class="nt">&lt;/em&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Use two asterisks for <span class="nt">&lt;strong&gt;</span>strong emphasis<span class="nt">&lt;/strong&gt;</span>.
+Or, if you prefer, <span class="nt">&lt;strong&gt;</span>use two underscores instead<span class="nt">&lt;/strong&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="lists">Lists</h2>
+
+<p>Unordered (bulleted) lists use asterisks, pluses, and hyphens (<code class="highlighter-rouge">*</code>, <code class="highlighter-rouge">+</code>, and <code class="highlighter-rouge">-</code>) as list markers. These three markers are interchangable; this:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span>   Candy.
+<span class="p">*</span>   Gum.
+<span class="p">*</span>   Booze.
+</code></pre></div></div>
+
+<p>this:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">+</span>   Candy.
+<span class="p">+</span>   Gum.
+<span class="p">+</span>   Booze.
+</code></pre></div></div>
+
+<p>and this:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span>   Candy.
+<span class="p">-</span>   Gum.
+<span class="p">-</span>   Booze.
+</code></pre></div></div>
+
+<p>all produce the same output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+<span class="nt">&lt;li&gt;</span>Candy.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>Gum.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>Booze.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<p>Ordered (numbered) lists use regular numbers, followed by periods, as
+list markers:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span>  Red
+<span class="p">2.</span>  Green
+<span class="p">3.</span>  Blue
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+<span class="nt">&lt;li&gt;</span>Red<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>Green<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>Blue<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<p>If you put blank lines between items, you’ll get <code class="highlighter-rouge">&lt;p&gt;</code> tags for the list item text. You can create multi-paragraph list items by indenting the paragraphs by 4 spaces or 1 tab:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span>   A list item.<span class="sb">
+
+    With multiple paragraphs.
+
+</span><span class="p">*</span>   Another item in the list.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+<span class="nt">&lt;li&gt;&lt;p&gt;</span>A list item.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>With multiple paragraphs.<span class="nt">&lt;/p&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;&lt;p&gt;</span>Another item in the list.<span class="nt">&lt;/p&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<h3 id="links">Links</h3>
+
+<p>Markdown supports two styles for creating links: <em>inline</em> and <em>reference</em>. With both styles, you use square brackets to delimit the text you want to turn into a link.</p>
+
+<p>Inline-style links use parentheses immediately after the link text. For example:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is an <span class="p">[</span><span class="nv">example link</span><span class="p">](</span><span class="sx">http://example.com/</span><span class="p">)</span>.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>This is an <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://example.com/"</span><span class="nt">&gt;</span>
+example link<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>Optionally, you may include a title attribute in the parentheses:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is an <span class="p">[</span><span class="nv">example link</span><span class="p">](</span><span class="sx">http://example.com/</span> <span class="nn">"With a Title"</span><span class="p">)</span>.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>This is an <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://example.com/"</span> <span class="na">title=</span><span class="s">"With a Title"</span><span class="nt">&gt;</span>
+example link<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>Reference-style links allow you to refer to your links by names, which
+you define elsewhere in your document:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I get 10 times more traffic from <span class="p">[</span><span class="nv">Google</span><span class="p">][</span><span class="ss">1</span><span class="p">]</span> than from
+<span class="p">[</span><span class="nv">Yahoo</span><span class="p">][</span><span class="ss">2</span><span class="p">]</span> or <span class="p">[</span><span class="nv">MSN</span><span class="p">][</span><span class="ss">3</span><span class="p">]</span>.
+
+<span class="p">[</span><span class="ss">1</span><span class="p">]:</span> <span class="sx">http://google.com/</span>        <span class="nn">"Google"</span>
+<span class="p">[</span><span class="ss">2</span><span class="p">]:</span> <span class="sx">http://search.yahoo.com/</span>  <span class="nn">"Yahoo Search"</span>
+<span class="p">[</span><span class="ss">3</span><span class="p">]:</span> <span class="sx">http://search.msn.com/</span>    <span class="nn">"MSN Search"</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>I get 10 times more traffic from <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://google.com/"</span>
+<span class="na">title=</span><span class="s">"Google"</span><span class="nt">&gt;</span>Google<span class="nt">&lt;/a&gt;</span> than from <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://search.yahoo.com/"</span>
+<span class="na">title=</span><span class="s">"Yahoo Search"</span><span class="nt">&gt;</span>Yahoo<span class="nt">&lt;/a&gt;</span> or <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://search.msn.com/"</span>
+<span class="na">title=</span><span class="s">"MSN Search"</span><span class="nt">&gt;</span>MSN<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>The title attribute is optional. Link names may contain letters,
+numbers and spaces, but are <em>not</em> case sensitive:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I start my morning with a cup of coffee and
+<span class="p">[</span><span class="nv">The New York Times</span><span class="p">][</span><span class="ss">NY Times</span><span class="p">]</span>.
+
+<span class="p">[</span><span class="ss">ny times</span><span class="p">]:</span> <span class="sx">http://www.nytimes.com/</span>
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>I start my morning with a cup of coffee and
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://www.nytimes.com/"</span><span class="nt">&gt;</span>The New York Times<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h3 id="images">Images</h3>
+
+<p>Image syntax is very much like link syntax.</p>
+
+<p>Inline (titles are optional):</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt text</span><span class="p">](</span><span class="sx">/path/to/img.jpg</span> <span class="nn">"Title"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Reference-style:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt text</span><span class="p">][</span><span class="ss">id</span><span class="p">]</span>
+
+<span class="p">[</span><span class="ss">id</span><span class="p">]:</span> <span class="sx">/path/to/img.jpg</span> <span class="nn">"Title"</span>
+</code></pre></div></div>
+
+<p>Both of the above examples produce the same output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/path/to/img.jpg"</span> <span class="na">alt=</span><span class="s">"alt text"</span> <span class="na">title=</span><span class="s">"Title"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h3 id="code">Code</h3>
+
+<p>In a regular paragraph, you can create code span by wrapping text in backtick quotes. Any ampersands (<code class="highlighter-rouge">&amp;</code>) and angle brackets (<code class="highlighter-rouge">&lt;</code> or <code class="highlighter-rouge">&gt;</code>) will automatically be translated into HTML entities. This makes it easy to use Markdown to write about HTML example code:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I strongly recommend against using any <span class="sb">`&lt;blink&gt;`</span> tags.
+
+I wish SmartyPants used named entities like <span class="sb">`&amp;mdash;`</span>
+instead of decimal-encoded entites like <span class="sb">`&amp;#8212;`</span>.
+</code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>I strongly recommend against using any
+<span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>blink<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> tags.<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>I wish SmartyPants used named entities like
+<span class="nt">&lt;code&gt;</span><span class="ni">&amp;amp;</span>mdash;<span class="nt">&lt;/code&gt;</span> instead of decimal-encoded
+entites like <span class="nt">&lt;code&gt;</span><span class="ni">&amp;amp;</span>#8212;<span class="nt">&lt;/code&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>To specify an entire block of pre-formatted code, indent every line of the block by 4 spaces or 1 tab. Just like with code spans, <code class="highlighter-rouge">&amp;</code>, <code class="highlighter-rouge">&lt;</code>, and <code class="highlighter-rouge">&gt;</code> characters will be escaped automatically.</p>
+
+<p>Markdown:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:<span class="sb">
+
+    &lt;blockquote&gt;
+        &lt;p&gt;For example.&lt;/p&gt;
+    &lt;/blockquote&gt;
+</span></code></pre></div></div>
+
+<p>Output:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;pre&gt;&lt;code&gt;</span><span class="ni">&amp;lt;</span>blockquote<span class="ni">&amp;gt;</span>
+    <span class="ni">&amp;lt;</span>p<span class="ni">&amp;gt;</span>For example.<span class="ni">&amp;lt;</span>/p<span class="ni">&amp;gt;</span>
+<span class="ni">&amp;lt;</span>/blockquote<span class="ni">&amp;gt;</span>
+<span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+</code></pre></div></div>
+
+</div>
+
+<hr>
+
+<ul class="tag_box inline">
+  <li><i class="fas fa-folder-open"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="/categories.html#markdown-ref">
+    		markdown <span>2</span>
+    	</a></li>
+    
+  
+
+
+</ul>
+  
+
+
+<ul class="tag_box inline">
+  <li><i class="fas fa-tags"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="/jekyll-bootstrap/tags.html#beginner-ref">beginner <span>4</span></a></li>
+     
+    	<li><a href="/jekyll-bootstrap/tags.html#markdown-ref">markdown <span>2</span></a></li>
+    
+  
+
+
+
+</ul>
+  
+
+<hr>
+<div aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/jekyll/2019/01/29/hello-world" title="Welcome to Jekyll!">&larr; Previous</a></li>
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/archive.html">Archive</a></li>
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/markdown/2019/04/18/markdown-syntax" title="Markdown Syntax">Next &rarr;</a></li>
+  
+  </ul>
+</div>
+
+<hr>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<!-- 将 id 哈希成 md5 的值，防止 id 长度超过50 -->
+<script src="/jekyll-bootstrap/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: "a86c2379ac1cc4fbc303",
+    clientSecret: "0e301c07a8734a5a78865d5e2b8c0b312e0d8073",
+    repo: "AaronszXia.github.io",
+    owner: "AaronszXia",
+    admin: ["AaronszXia", "A"],
+    id: md5(location.pathname),
+    distractionFreeMode: false
+  })
+
+  gitalk.render("gitalk-container")
+</script>
+
+
+
+
+    <!-- 调试信息 -->
+    <!-- <div style="background-color: red;">
+      <h1>调试信息</h1>
+      
+        <p>is_production = false</p>
+      
+      
+      <p>BASE_PATH的值为</p>
+      <p>ASSET_PATH的值为</p>
+      <p>site.author.name的值为Aaronsz Xia</p>
+    </div> -->
+    <!-- 调试信息 -->
+
+  </div>
+
+  <div class="footer mt-auto">
+    <div class="container">
+      
+      <!-- 为了能够实时将网站访问量数据展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
+      <!-- 网站数据统计脚本 -->
+      <p>
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1277114101'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1277114101%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+      </p>
+      
+      <p>
+        &copy; 2019 Aaronsz Xia with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- 网站数据统计脚本 -->
+  
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

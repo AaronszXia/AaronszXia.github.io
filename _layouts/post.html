@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div>
+  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+</div>
+
+<div>
+  <span>{{ page.date | date_to_long_string }}</span>
+  {% if page.author %}
+    <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">{{ page.author }}</a>
+  {% else %}
+    <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">{{ site.author.name }}</a>
+  {% endif %}
+</div>
+
+<div>
+  {{ content }}
+</div>
+
+<hr>
+{% unless page.categories == empty %}
+<ul class="tag_box inline">
+  <li><i class="fas fa-folder-open"></i></li>
+  {% assign categories_list = page.categories %}
+  {% include JB/categories_list %}
+</ul>
+{% endunless %}  
+
+{% unless page.tags == empty %}
+<ul class="tag_box inline">
+  <li><i class="fas fa-tags"></i></li>
+  {% assign tags_list = page.tags %}
+  {% include JB/tags_list %}
+</ul>
+{% endunless %}  
+
+<hr>
+<div aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+  {% if page.previous %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+  {% else %}
+    <li class="page-item disabled"><a class="page-link">&larr; Previous</a></li>
+  {% endif %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ site.JB.archive_path }}">Archive</a></li>
+  {% if page.next %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+  {% else %}
+    <li class="page-item disabled"><a class="page-link">Next &rarr;</a>
+  {% endif %}
+  </ul>
+</div>
+
+<hr>
+{% include JB/comments %}

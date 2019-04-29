@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+<head>
+  <!-- Enable responsive viewport -->
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  
+  <title>Welcome to Jekyll!</title>
+  
+  <meta name="author" content="Aaronsz Xia">
+
+  <!-- Bootstrap styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles -->
+  <link href="/jekyll-bootstrap/css/style.css" rel="stylesheet">
+  <link href="/jekyll-bootstrap/css/main.css" rel="stylesheet">
+
+  <!-- Fav and touch icons -->
+  <!-- Update these with your own images -->
+  <link rel="shortcut icon" href="/jekyll-bootstrap/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/jekyll-bootstrap/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/jekyll-bootstrap/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/jekyll-bootstrap/images/apple-touch-icon-114x114.png">
+
+  <!-- atom & rss feed -->
+  <link href="/jekyll-bootstrap/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <link href="/jekyll-bootstrap/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  <!-- Font Awesome 图标库 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column h-100">
+  <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container d-flex justify-content-between">
+      
+      <a class="navbar-brand" href="/jekyll-bootstrap/index.html">Aaronsz</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarsExampleDefault" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <!-- <li class="nav-item active">
+          <a class="nav-link" href="/jekyll-bootstrap/index.html">Home<span class="sr-only">(current)</span></a>
+        </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/cv">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/jekyll-bootstrap/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://aaronszxia.github.io/">Cover Page</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search (currently unavailable)"
+            aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div>
+  <h1>Welcome to Jekyll! </h1>
+</div>
+
+<div>
+  <span>29 January 2019</span>
+  
+    <a href="https://github.com/AaronszXia" target="_blank" rel="noopener noreferrer">Aaronsz Xia</a>
+  
+</div>
+
+<div>
+  <p><strong>Hello world</strong>, this is my first Jekyll blog post.</p>
+
+<p>I hope you like it!</p>
+
+<h1 id="highlighter">Highlighter</h1>
+<h2 id="ruby">Ruby</h2>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">show</span>
+  <span class="nb">puts</span> <span class="s2">"Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:id</span><span class="p">])</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json: </span><span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="php">Php</h2>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+  <span class="k">print</span><span class="p">(</span><span class="s2">"Hello </span><span class="si">{</span><span class="nv">$world</span><span class="si">}</span><span class="s2">"</span><span class="p">);</span>
+<span class="cp">?&gt;</span>
+</code></pre></div></div>
+
+<h2 id="java">Java</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">java</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello World"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="html">HTML</h2>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;&lt;title&gt;</span>Title!<span class="nt">&lt;/title&gt;&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"foo"</span><span class="nt">&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span><span class="nf">#foo</span> <span class="p">{</span> <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span> <span class="p">}</span><span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="console">Console</h2>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">#</span> prints <span class="s2">"hello, world"</span> to the screen
+<span class="gp">~#</span> <span class="nb">echo </span>Hello, World
+<span class="go">Hello, World
+
+</span><span class="gp">#</span> don<span class="s1">'t run this
+</span><span class="gp">~#</span> <span class="s1">rm -rf --no-preserve-root /
+</span></code></pre></div></div>
+
+<h2 id="css">Css</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">12pt</span><span class="p">;</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span> <span class="sx">url(temp.png)</span> <span class="nb">top</span> <span class="nb">left</span> <span class="nb">no-repeat</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="yaml">Yaml</h2>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">one</span><span class="pi">:</span> <span class="s">Mark McGwire</span>
+<span class="na">two</span><span class="pi">:</span> <span class="s">Sammy Sosa</span>
+<span class="na">three</span><span class="pi">:</span> <span class="s">Ken Griffey</span>
+</code></pre></div></div>
+
+</div>
+
+<hr>
+
+<ul class="tag_box inline">
+  <li><i class="fas fa-folder-open"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="/categories.html#jekyll-ref">
+    		jekyll <span>1</span>
+    	</a></li>
+    
+  
+
+
+</ul>
+  
+
+
+<ul class="tag_box inline">
+  <li><i class="fas fa-tags"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="/jekyll-bootstrap/tags.html#demo-ref">demo <span>1</span></a></li>
+     
+    	<li><a href="/jekyll-bootstrap/tags.html#beginner-ref">beginner <span>4</span></a></li>
+     
+    	<li><a href="/jekyll-bootstrap/tags.html#jekyll-ref">jekyll <span>2</span></a></li>
+    
+  
+
+
+
+</ul>
+  
+
+<hr>
+<div aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a></li>
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/archive.html">Archive</a></li>
+  
+    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/markdown/2019/04/18/markdown-basics" title="Markdown Basics">Next &rarr;</a></li>
+  
+  </ul>
+</div>
+
+<hr>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<!-- 将 id 哈希成 md5 的值，防止 id 长度超过50 -->
+<script src="/jekyll-bootstrap/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: "a86c2379ac1cc4fbc303",
+    clientSecret: "0e301c07a8734a5a78865d5e2b8c0b312e0d8073",
+    repo: "AaronszXia.github.io",
+    owner: "AaronszXia",
+    admin: ["AaronszXia", "A"],
+    id: md5(location.pathname),
+    distractionFreeMode: false
+  })
+
+  gitalk.render("gitalk-container")
+</script>
+
+
+
+
+    <!-- 调试信息 -->
+    <!-- <div style="background-color: red;">
+      <h1>调试信息</h1>
+      
+        <p>is_production = false</p>
+      
+      
+      <p>BASE_PATH的值为</p>
+      <p>ASSET_PATH的值为</p>
+      <p>site.author.name的值为Aaronsz Xia</p>
+    </div> -->
+    <!-- 调试信息 -->
+
+  </div>
+
+  <div class="footer mt-auto">
+    <div class="container">
+      
+      <!-- 为了能够实时将网站访问量数据展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
+      <!-- 网站数据统计脚本 -->
+      <p>
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1277114101'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1277114101%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+      </p>
+      
+      <p>
+        &copy; 2019 Aaronsz Xia with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- 网站数据统计脚本 -->
+  
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
