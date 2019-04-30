@@ -1,4 +1,6 @@
-{% capture jbcache %}{% comment %}
+{% capture jbcache %}
+
+{% comment %}
 
   Determine whether or not the site is being built in a production environment.
   

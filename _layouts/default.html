@@ -2,28 +2,36 @@
 <html class="h-100">
 
 <head>
+  <!-- Required meta tags -->
   <!-- Enable responsive viewport -->
   <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-  <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
+  <!-- <title>
+    {% if page.title %}
+      {{ page.title | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </title> -->
   <title>
     {% if page.title %}
       {{ page.title }} | 
     {% endif %}  
     
-    {{ site.title }}</title>
+    {{ site.title }}
+  </title>
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
   {% endif %}
   <meta name="author" content="{{ site.author.name }}">
 
   <!-- Bootstrap styles -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <!-- 换用国内CDN -->
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles -->
-  <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
   <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
 
   <!-- Fav and touch icons -->
@@ -34,7 +42,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/images/apple-touch-icon-114x114.png">
 
   <!-- atom & rss feed -->
-  <link href="{{ site.baseurl }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <link href="{{ site.baseurl }}{{ site.JB.atom_path | prepend: site.baseurl }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
   <link href="{{ site.baseurl }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   <!-- Font Awesome 图标库 -->
@@ -83,32 +91,15 @@
     
     {{ content }}
 
-    <!-- 调试信息 -->
-    <!-- <div style="background-color: red;">
-      <h1>调试信息</h1>
-      {% if is_production != true %}
-        <p>is_production = false</p>
-      {% endif %}
-      {% if is_production == true %}
-        <p>is_production = true<p>
-      {% endif %}
-      <p>BASE_PATH的值为{{ BASE_PATH }}</p>
-      <p>ASSET_PATH的值为{{ ASSET_PATH }}</p>
-      <p>site.author.name的值为{{ site.author.name }}</p>
-    </div> -->
-    <!-- 调试信息 -->
-
   </div>
 
   <div class="footer mt-auto">
     <div class="container">
-      
       <!-- 为了能够实时将网站访问量数据展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
       <!-- 网站数据统计脚本 -->
       <p>
         {% include JB/analytics-providers/umeng %}
       </p>
-      
       <p>
         &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
       </p>

@@ -2,33 +2,44 @@
 <html class="h-100">
 
 <head>
+  <!-- Required meta tags -->
   <!-- Enable responsive viewport -->
   <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-  <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <title>Welcome to Jekyll!</title>
+  <!-- <title>
+    
+      Welcome to Jekyll!
+    
+  </title> -->
+  <title>
+    
+      Welcome to Jekyll! | 
+      
+    
+    Aaronsz's Blog
+  </title>
   
   <meta name="author" content="Aaronsz Xia">
 
   <!-- Bootstrap styles -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <!-- 换用国内CDN -->
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles -->
-  <link href="/jekyll-bootstrap/css/style.css" rel="stylesheet">
-  <link href="/jekyll-bootstrap/css/main.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
 
   <!-- Fav and touch icons -->
   <!-- Update these with your own images -->
-  <link rel="shortcut icon" href="/jekyll-bootstrap/images/favicon.ico">
-  <link rel="apple-touch-icon" href="/jekyll-bootstrap/images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/jekyll-bootstrap/images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/jekyll-bootstrap/images/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
 
   <!-- atom & rss feed -->
-  <link href="/jekyll-bootstrap/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-  <link href="/jekyll-bootstrap/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   <!-- Font Awesome 图标库 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -38,7 +49,7 @@
   <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container d-flex justify-content-between">
       
-      <a class="navbar-brand" href="/jekyll-bootstrap/index.html">Aaronsz</a>
+      <a class="navbar-brand" href="/index.html">Aaronsz</a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,16 +58,16 @@
       <div id="navbarsExampleDefault" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <!-- <li class="nav-item active">
-          <a class="nav-link" href="/jekyll-bootstrap/index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
         </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="/jekyll-bootstrap/blog">Blog</a>
+            <a class="nav-link" href="/blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/jekyll-bootstrap/cv">CV</a>
+            <a class="nav-link" href="/cv">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/jekyll-bootstrap/about">About</a>
+            <a class="nav-link" href="/about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://aaronszxia.github.io/">Cover Page</a>
@@ -75,16 +86,17 @@
   <div class="container">
     
     <div>
-  <h1>Welcome to Jekyll! </h1>
+  <h1>Welcome to Jekyll!</h1>
 </div>
 
 <div>
   <span>29 January 2019</span>
   
-    <a href="https://github.com/AaronszXia" target="_blank" rel="noopener noreferrer">Aaronsz Xia</a>
+    <a href="https://github.com/aaronszxia" target="_blank" rel="noopener noreferrer">Aaronsz Xia</a>
   
 </div>
 
+<hr>
 <div>
   <p><strong>Hello world</strong>, this is my first Jekyll blog post.</p>
 
@@ -152,6 +164,7 @@
 
 </div>
 
+<!-- Tag-box -->
 <hr>
 
 <ul class="tag_box inline">
@@ -163,7 +176,7 @@
   
      
     	<li><a href="/categories.html#jekyll-ref">
-    		jekyll <span>1</span>
+    		jekyll <span>2</span>
     	</a></li>
     
   
@@ -181,11 +194,11 @@
 
   
      
-    	<li><a href="/jekyll-bootstrap/tags.html#demo-ref">demo <span>1</span></a></li>
+    	<li><a href="/tags.html#demo-ref">demo <span>2</span></a></li>
      
-    	<li><a href="/jekyll-bootstrap/tags.html#beginner-ref">beginner <span>4</span></a></li>
+    	<li><a href="/tags.html#beginner-ref">beginner <span>3</span></a></li>
      
-    	<li><a href="/jekyll-bootstrap/tags.html#jekyll-ref">jekyll <span>2</span></a></li>
+    	<li><a href="/tags.html#jekyll-ref">jekyll <span>2</span></a></li>
     
   
 
@@ -194,19 +207,25 @@
 </ul>
   
 
+<!-- Pagination -->
 <hr>
 <div aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
+    
+    
+      <li class="page-item"><a class="page-link" href="/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a></li>
+    
+
+    <li class="page-item"><a class="page-link" href="/archive.html">Archive</a></li>
   
-    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a></li>
-  
-    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/archive.html">Archive</a></li>
-  
-    <li class="page-item"><a class="page-link" href="/jekyll-bootstrap/markdown/2019/04/18/markdown-basics" title="Markdown Basics">Next &rarr;</a></li>
-  
+    
+      <li class="page-item"><a class="page-link" href="/markdown/2019/04/18/markdown-basics" title="Markdown Basics">Next &rarr;</a></li>
+    
+
   </ul>
 </div>
 
+<!-- Comments -->
 <hr>
 
 
@@ -217,14 +236,14 @@
 <div id="gitalk-container"></div>
 
 <!-- 将 id 哈希成 md5 的值，防止 id 长度超过50 -->
-<script src="/jekyll-bootstrap/js/md5.min.js"></script>
+<script src="/js/md5.min.js"></script>
 
 <script type="text/javascript">
   var gitalk = new Gitalk({
     clientID: "a86c2379ac1cc4fbc303",
     clientSecret: "0e301c07a8734a5a78865d5e2b8c0b312e0d8073",
-    repo: "AaronszXia.github.io",
-    owner: "AaronszXia",
+    repo: "aaronszxia.github.io",
+    owner: "aaronszxia",
     admin: ["AaronszXia", "A"],
     id: md5(location.pathname),
     distractionFreeMode: false
@@ -236,30 +255,15 @@
 
 
 
-    <!-- 调试信息 -->
-    <!-- <div style="background-color: red;">
-      <h1>调试信息</h1>
-      
-        <p>is_production = false</p>
-      
-      
-      <p>BASE_PATH的值为</p>
-      <p>ASSET_PATH的值为</p>
-      <p>site.author.name的值为Aaronsz Xia</p>
-    </div> -->
-    <!-- 调试信息 -->
-
   </div>
 
   <div class="footer mt-auto">
     <div class="container">
-      
       <!-- 为了能够实时将网站访问量数据展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
       <!-- 网站数据统计脚本 -->
       <p>
         <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1277114101'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1277114101%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
       </p>
-      
       <p>
         &copy; 2019 Aaronsz Xia with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
       </p>

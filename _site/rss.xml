@@ -1,828 +1,206 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-        <title>Aaronsz's Blog</title>
-        <description>Aaronsz's Blog - Aaronsz Xia</description>
-        <link>http://username.github.io</link>
-        <atom:link href="http://username.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 24 Apr 2019 09:33:16 +0800</lastBuildDate>
-        <pubDate>Wed, 24 Apr 2019 09:33:16 +0800</pubDate>
+        <title>Aaronsz&#39;s Blog</title>
+        <description>Aaronsz&#39;s Blog - Aaronsz Xia</description>
+        <link></link>
+        <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 30 Apr 2019 18:06:28 +0800</lastBuildDate>
+        <pubDate>Tue, 30 Apr 2019 18:06:28 +0800</pubDate>
         <ttl>60</ttl>
 
 
         <item>
-                <title>hahaha</title>
-                <description>&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
-&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;quote&lt;/p&gt;
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;code
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
+                <title>Welcome to Jekyll!</title>
+                <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
 </description>
-                <link>http://username.github.io/test/2019/04/20/test-for-md</link>
-                <guid>http://username.github.io/test/2019/04/20/test-for-md</guid>
-                <pubDate>Sat, 20 Apr 2019 00:00:00 +0800</pubDate>
+                <link>/jekyll/update/2019/04/30/welcome-to-jekyll</link>
+                <guid>/jekyll/update/2019/04/30/welcome-to-jekyll</guid>
+                <pubDate>Tue, 30 Apr 2019 16:18:04 +0800</pubDate>
         </item>
 
         <item>
-                <title>Markdown Syntax</title>
-                <description>&lt;!-- Markdown: Syntax
-================ --&gt;
+                <title>Markdown Demo</title>
+                <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
 
-&lt;ul id=&quot;ProjectSubmenu&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/&quot; title=&quot;Markdown Project Page&quot;&gt;Main&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/basics&quot; title=&quot;Markdown Basics&quot;&gt;Basics&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a class=&quot;selected&quot; title=&quot;Markdown Syntax Documentation&quot;&gt;Syntax&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/license&quot; title=&quot;Pricing and License Information&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/dingus&quot; title=&quot;Online Markdown Web Form&quot;&gt;Dingus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;./another-page.html&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+
+  &lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;dateformat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i18n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;./lang/&#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;GitHubPages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dependencies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_dependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#html&quot;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#autoescape&quot;&gt;Automatic Escaping for Special Characters&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#block&quot;&gt;Block Elements&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#p&quot;&gt;Paragraphs and Line Breaks&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#header&quot;&gt;Headers&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#blockquote&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#list&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#precode&quot;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#hr&quot;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#span&quot;&gt;Span Elements&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#link&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#em&quot;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#code&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#img&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#misc&quot;&gt;Miscellaneous&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#backslash&quot;&gt;Backslash Escapes&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#autolink&quot;&gt;Automatic Links&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This document is itself written using Markdown; you can &lt;a href=&quot;/projects/markdown/syntax.text&quot;&gt;see the source for it by adding ‘.text’ to the URL&lt;/a&gt;.&lt;/p&gt;
+&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;header-6&quot;&gt;Header 6&lt;/h6&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head two&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;three&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good swedish fish&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;out of stock&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good and plenty&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;highlighter-rouge&quot;&gt;oreos&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;hmm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;highlighter-rouge&quot;&gt;zoute&lt;/code&gt; drop&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;yumm&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot;&gt;There’s a horizontal rule below this.&lt;/h3&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;h3 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h3&gt;
-
-&lt;p&gt;Markdown is intended to be as easy-to-read and easy-to-write as is feasible.&lt;/p&gt;
-
-&lt;p&gt;Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters – including &lt;a href=&quot;http://docutils.sourceforge.net/mirror/setext.html&quot;&gt;Setext&lt;/a&gt;, &lt;a href=&quot;http://www.aaronsw.com/2002/atx/&quot;&gt;atx&lt;/a&gt;, &lt;a href=&quot;http://textism.com/tools/textile/&quot;&gt;Textile&lt;/a&gt;, &lt;a href=&quot;http://docutils.sourceforge.net/rst.html&quot;&gt;reStructuredText&lt;/a&gt;, &lt;a href=&quot;http://www.triptico.com/software/grutatxt.html&quot;&gt;Grutatext&lt;/a&gt;, and &lt;a href=&quot;http://ettext.taint.org/doc/&quot;&gt;EtText&lt;/a&gt; – the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.&lt;/p&gt;
-
-&lt;p&gt;To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word  ctually look like *emphasis*. Markdown lists look like, well, lists. Even blockquotes look like quoted assages of text, assuming you’ve ever used email.&lt;/p&gt;
-
-&lt;h3 id=&quot;html&quot;&gt;Inline HTML&lt;/h3&gt;
-
-&lt;p&gt;Markdown’s syntax is intended for one purpose: to be used as a format for &lt;em&gt;writing&lt;/em&gt; for the web.&lt;/p&gt;
-
-&lt;p&gt;Markdown is not a replacement for HTML, or even close to it. Its syntax is very small, corresponding only to a very small subset of HTML tags. The idea is &lt;em&gt;not&lt;/em&gt; to create a syntax that makes it easier to insert HTML tags. In my opinion, HTML tags are already easy to insert. The idea for Markdown is to make it easy to read, write, and edit prose. HTML is a &lt;em&gt;publishing&lt;/em&gt; format; Markdown is a &lt;em&gt;writing&lt;/em&gt; format. Thus, Markdown’s  ormatting syntax only addresses issues that can be conveyed in plain text.&lt;/p&gt;
-
-&lt;p&gt;For any markup that is not covered by Markdown’s syntax, you simply use HTML itself. There’s no need to preface it or delimit it to indicate that you’re switching from Markdown to HTML; you just use the tags.&lt;/p&gt;
-
-&lt;p&gt;The only restrictions are that block-level HTML elements – e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;pre&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, etc. – must be separated from surrounding content by blank lines, and the start and end tags of the block should not be indented with tabs or spaces. Markdown is smart enough not to add extra (unwanted) &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags around HTML block-level tags.&lt;/p&gt;
-
-&lt;p&gt;For example, to add an HTML table to a Markdown article:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a regular paragraph.
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;table&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Foo&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
-
-This is another regular paragraph.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note that Markdown formatting syntax is not processed within block-level HTML tags. E.g., you can’t use Markdown-style &lt;code class=&quot;highlighter-rouge&quot;&gt;*emphasis*&lt;/code&gt; inside an HTML block.&lt;/p&gt;
-
-&lt;p&gt;Span-level HTML tags – e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; – can be used anywhere in a Markdown paragraph, list item, or header. If you want, you can even use HTML tags instead of Markdown formatting; e.g. if you’d prefer to use HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags instead of Markdown’s link or image syntax, go right ahead.&lt;/p&gt;
-
-&lt;p&gt;Unlike block-level HTML tags, Markdown syntax &lt;em&gt;is&lt;/em&gt; processed within span-level tags.&lt;/p&gt;
-
-&lt;h3 id=&quot;autoescape&quot;&gt;Automatic Escaping for Special Characters&lt;/h3&gt;
-
-&lt;p&gt;In HTML, there are two characters that demand special treatment: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;. Left angle brackets are used to start tags; ampersands are used to denote HTML entities. If you want to use them as literal characters, you must escape them as entities, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;lt;&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;amp;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ampersands in particular are bedeviling for web writers. If you want to write about ‘AT&amp;amp;T’, you need to write ‘&lt;code class=&quot;highlighter-rouge&quot;&gt;AT&amp;amp;amp;T&lt;/code&gt;’. You even need to escape ampersands within URLs. Thus, if you want to link to:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://images.google.com/images?num=30&amp;amp;q=larry+bird
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;you need to encode the URL as:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://images.google.com/images?num=30&lt;span class=&quot;ni&quot;&gt;&amp;amp;amp;&lt;/span&gt;q=larry+bird
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;in your anchor tag &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute. Needless to say, this is easy to forget, and is probably the single most common source of HTML validation errors in otherwise well-marked-up web sites.&lt;/p&gt;
-
-&lt;p&gt;Markdown allows you to use these characters naturally, taking care of all the necessary escaping for you. If you use an ampersand as part of an HTML entity, it remains unchanged; otherwise it will be translated into &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;amp;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;So, if you want to include a copyright symbol in your article, you can write:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;copy;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and Markdown will leave it alone. But if you write:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AT&amp;amp;T
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AT&amp;amp;amp;T
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Similarly, because Markdown supports &lt;a href=&quot;#html&quot;&gt;inline HTML&lt;/a&gt;, if you use angle brackets as delimiters for HTML tags, Markdown will treat them as such. But if you write:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;4 &amp;lt; 5
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown will translate it to:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;4 &amp;amp;lt; 5
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;However, inside Markdown code spans and blocks, angle brackets and ampersands are &lt;em&gt;always&lt;/em&gt; encoded automatically. This makes it easy to use Markdown to write about HTML code. (As opposed to raw HTML, which is a terrible format for writing about HTML syntax, because every single &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt; in your example code needs to be escaped.)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;block&quot;&gt;Block Elements&lt;/h2&gt;
-
-&lt;h3 id=&quot;p&quot;&gt;Paragraphs and Line Breaks&lt;/h3&gt;
-
-&lt;p&gt;A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line – a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.&lt;/p&gt;
-
-&lt;p&gt;The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Type’s “Convert Line Breaks” option) which translate every line break character in a paragraph into a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-
-&lt;p&gt;When you &lt;em&gt;do&lt;/em&gt; want to insert a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; break tag using Markdown, you end a line with two or more spaces, then type return.&lt;/p&gt;
-
-&lt;p&gt;Yes, this takes a tad more effort to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt;, but a simplistic “every line break is a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt;” rule wouldn’t work for Markdown. Markdown’s email-style &lt;a href=&quot;#blockquote&quot;&gt;blockquoting&lt;/a&gt; and multi-paragraph &lt;a href=&quot;#list&quot;&gt;list items&lt;/a&gt;
-work best – and look better – when you format them with hard breaks.&lt;/p&gt;
-
-&lt;h3 id=&quot;header&quot;&gt;Headers&lt;/h3&gt;
-
-&lt;p&gt;Markdown supports two styles of headers, &lt;a href=&quot;http://docutils.sourceforge.net/mirror/setext.html&quot;&gt;Setext&lt;/a&gt; and &lt;a href=&quot;http://www.aaronsw.com/2002/atx/&quot;&gt;atx&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gu&quot;&gt;This is an H1
-=============
-&lt;/span&gt;
-&lt;span class=&quot;gh&quot;&gt;This is an H2
--------------
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Any number of underlining &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt;’s or &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;’s will work.&lt;/p&gt;
-
-&lt;p&gt;Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# This is an H1&lt;/span&gt;
-
-&lt;span class=&quot;gu&quot;&gt;## This is an H2&lt;/span&gt;
-
-&lt;span class=&quot;gu&quot;&gt;###### This is an H6&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Optionally, you may “close” atx-style headers. This is purely cosmetic – you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gh&quot;&gt;# This is an H1 #&lt;/span&gt;
-
-&lt;span class=&quot;gu&quot;&gt;## This is an H2 ##&lt;/span&gt;
-
-&lt;span class=&quot;gu&quot;&gt;### This is an H3 ######&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;blockquote&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;p&gt;Markdown uses email-style &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; characters for blockquoting. If you’re familiar with quoting passages of text in an email message, then you know how to create a blockquote in Markdown. It looks best if you hard wrap the text and put a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; before every line:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; id sem consectetuer libero luctus adipiscing.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown allows you to be lazy and only put the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; before the first line of a hard-wrapped paragraph:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,&lt;/span&gt;
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-&lt;span class=&quot;gt&quot;&gt;
-&amp;gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse&lt;/span&gt;
-id sem consectetuer libero luctus adipiscing.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; This is the first level of quoting.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; &amp;gt; This is nested blockquote.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; Back to the first level.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; ## This is a header.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; 1.   This is the first list item.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; 2.   This is the second list item.&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; Here's some example code:&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; &lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Any decent text editor should make email-style quoting easy. For example, with BBEdit, you can make a selection and choose Increase Quote Level from the Text menu.&lt;/p&gt;
-
-&lt;h3 id=&quot;list&quot;&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Markdown supports ordered (numbered) and unordered (bulleted) lists.&lt;/p&gt;
-
-&lt;p&gt;Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Red
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Green
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Blue
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;is equivalent to:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt;   Red
-&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt;   Green
-&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt;   Blue
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;   Red
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;   Green
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;   Blue
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Ordered lists use numbers followed by periods:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt;  Bird
-&lt;span class=&quot;p&quot;&gt;2.&lt;/span&gt;  McHale
-&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt;  Parish
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It’s important to note that the actual numbers you use to mark the list have no effect on the HTML output Markdown produces. The HTML Markdown produces from the above list is:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ol&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Bird&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;McHale&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Parish&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ol&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you instead wrote the list in Markdown like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt;  Bird
-&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt;  McHale
-&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt;  Parish
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;or even:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;3.&lt;/span&gt; Bird
-&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; McHale
-&lt;span class=&quot;p&quot;&gt;8.&lt;/span&gt; Parish
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;you’d get the exact same HTML output. The point is, if you want to, you can use ordinal numbers in your ordered Markdown lists, so that the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don’t have to.&lt;/p&gt;
-
-&lt;p&gt;If you do use lazy list numbering, however, you should still start the list with the number 1. At some point in the future, Markdown may support starting ordered lists at an arbitrary number.&lt;/p&gt;
-
-&lt;p&gt;List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.&lt;/p&gt;
-
-&lt;p&gt;To make lists look nice, you can wrap items with hanging indents:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;But if you want to be lazy, you don’t have to:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If list items are separated by blank lines, Markdown will wrap the items in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags in the HTML output. For example, this input:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Bird
-&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;   Magic
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will turn into:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Bird&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Magic&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;But this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   Bird
-
-*   Magic
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will turn into:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Bird&amp;lt;/p&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;&amp;lt;p&amp;gt;Magic&amp;lt;/p&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It looks nice if you indent every line of the subsequent paragraphs, but here again, Markdown will allow you to be lazy:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   This is a list item with two paragraphs.
-
-    This is the second paragraph in the list item. You're
-only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.
-
-*   Another item in the same list.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To put a blockquote within a list item, the blockquote’s &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; delimiters need to be indented:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   A list item with a blockquote:
-
-    &amp;gt; This is a blockquote
-    &amp;gt; inside a list item.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To put a code block within a list item, the code block needs to be indented &lt;em&gt;twice&lt;/em&gt; – 8 spaces or two tabs:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*   A list item with a code block:
-
-        &amp;lt;code goes here&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It’s worth noting that it’s possible to trigger an ordered list by accident, by writing something like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1986. What a great season.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In other words, a &lt;em&gt;number-period-space&lt;/em&gt; sequence at the beginning of a line. To avoid this, you can backslash-escape the period:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1986\. What a great season.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;precode&quot;&gt;Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
-
-&lt;p&gt;To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. For example, given this input:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a normal paragraph:
-
-    This is a code block.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown will generate:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;This is a normal paragraph:&amp;lt;/p&amp;gt;
-
-&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;This is a code block.
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;One level of indentation – 4 spaces or 1 tab – is removed from each line of the code block. For example, this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here is an example of AppleScript:
-
-    tell application &quot;Foo&quot;
-        beep
-    end tell
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will turn into:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;Here is an example of AppleScript:&amp;lt;/p&amp;gt;
-
-&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;tell application &quot;Foo&quot;
-    beep
-end tell
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A code block continues until it reaches a line that is not indented (or the end of the article).&lt;/p&gt;
-
-&lt;p&gt;Within a code block, ampersands (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;) and angle brackets (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;) are automatically converted into HTML entities. This makes it very easy to include example HTML source code using Markdown – just paste it and indent it, and Markdown will handle the hassle of encoding the ampersands and angle brackets. For example, this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &amp;lt;div class=&quot;footer&quot;&amp;gt;
-        &amp;amp;copy; 2004 Foo Corporation
-    &amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will turn into:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;amp;lt;div class=&quot;footer&quot;&amp;amp;gt;
-    &amp;amp;amp;copy; 2004 Foo Corporation
-&amp;amp;lt;/div&amp;amp;gt;
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block. This means it’s also easy to use Markdown to write about Markdown’s own syntax.&lt;/p&gt;
-
-&lt;h3 id=&quot;hr&quot;&gt;Horizontal Rules&lt;/h3&gt;
-
-&lt;p&gt;You can produce a horizontal rule tag (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;hr /&amp;gt;&lt;/code&gt;) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks. Each of the following lines will produce a horizontal rule:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* * *
-
-***
-
-*****
-
-- - -
-
----------------------------------------
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;span&quot;&gt;Span Elements&lt;/h2&gt;
-
-&lt;h3 id=&quot;link&quot;&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;Markdown supports two style of links: &lt;em&gt;inline&lt;/em&gt; and &lt;em&gt;reference&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;In both styles, the link text is delimited by [square brackets].&lt;/p&gt;
-
-&lt;p&gt;To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an &lt;em&gt;optional&lt;/em&gt; title for the link, surrounded in quotes. For example:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is [an example](http://example.com/ &quot;Title&quot;) inline link.
-
-[This link](http://example.net/) has no title attribute.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Will produce:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;This is &amp;lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&amp;gt;
-an example&amp;lt;/a&amp;gt; inline link.&amp;lt;/p&amp;gt;
-
-&amp;lt;p&amp;gt;&amp;lt;a href=&quot;http://example.net/&quot;&amp;gt;This link&amp;lt;/a&amp;gt; has no
-title attribute.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you’re referring to a local resource on the same server, you can use relative paths:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;See my [About](/about/) page for details.   
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is [an example][id] reference-style link.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can optionally use a space to separate the sets of brackets:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is [an example] [id] reference-style link.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then, anywhere in the document, you define your link label like this, on a line by itself:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[id]: http://example.com/  &quot;Optional Title Here&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;That is:&lt;/p&gt;
+&lt;h3 id=&quot;here-is-an-unordered-list&quot;&gt;Here is an unordered list:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Square brackets containing the link identifier (optionally indented from the left margin using up to three spaces);&lt;/li&gt;
-  &lt;li&gt;followed by a colon;&lt;/li&gt;
-  &lt;li&gt;followed by one or more spaces (or tabs);&lt;/li&gt;
-  &lt;li&gt;followed by the URL for the link;&lt;/li&gt;
-  &lt;li&gt;optionally followed by a title attribute for the link, enclosed in double or single quotes, or enclosed in parentheses.&lt;/li&gt;
+  &lt;li&gt;Item foo&lt;/li&gt;
+  &lt;li&gt;Item bar&lt;/li&gt;
+  &lt;li&gt;Item baz&lt;/li&gt;
+  &lt;li&gt;Item zip&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The following three link definitions are equivalent:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[foo]: http://example.com/  &quot;Optional Title Here&quot;
-[foo]: http://example.com/  'Optional Title Here'
-[foo]: http://example.com/  (Optional Title Here)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; There is a known bug in Markdown.pl 1.0.1 which prevents single quotes from being used to delimit link titles.&lt;/p&gt;
-
-&lt;p&gt;The link URL may, optionally, be surrounded by angle brackets:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[id]: &amp;lt;http://example.com/&amp;gt;  &quot;Optional Title Here&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can put the title attribute on the next line and use extra spaces or tabs for padding, which tends to look better with longer URLs:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[id]: http://example.com/longish/path/to/resource/here
-    &quot;Optional Title Here&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Link definitions are only used for creating links during Markdown processing, and are stripped from your document in the HTML output.&lt;/p&gt;
-
-&lt;p&gt;Link definition names may consist of letters, numbers, spaces, and punctuation – but they are &lt;em&gt;not&lt;/em&gt; case sensitive. E.g. these two links:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[link text][a]
-[link text][A]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;are equivalent.&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;implicit link name&lt;/em&gt; shortcut allows you to omit the name of the link, in which case the link text itself is used as the name. Just use an empty set of square brackets – e.g., to link the word “Google” to the google.com web site, you could simply write:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Google][]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And then define the link:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Google]: http://google.com/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Because link names may contain spaces, this shortcut even works for multiple words in the link text:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Visit [Daring Fireball][] for more information.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And then define the link:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Daring Fireball]: http://daringfireball.net/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Link definitions can be placed anywhere in your Markdown document. I tend to put them immediately after each paragraph in which they’re used, but if you want, you can put them all at the end of your document, sort of like footnotes.&lt;/p&gt;
-
-&lt;p&gt;Here’s an example of reference links in action:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
-
-  [1]: http://google.com/        &quot;Google&quot;
-  [2]: http://search.yahoo.com/  &quot;Yahoo Search&quot;
-  [3]: http://search.msn.com/    &quot;MSN Search&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Using the implicit link name shortcut, you could instead write:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I get 10 times more traffic from [Google][] than from
-[Yahoo][] or [MSN][].
-
-  [google]: http://google.com/        &quot;Google&quot;
-  [yahoo]:  http://search.yahoo.com/  &quot;Yahoo Search&quot;
-  [msn]:    http://search.msn.com/    &quot;MSN Search&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Both of the above examples will produce the following HTML output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;I get 10 times more traffic from &amp;lt;a href=&quot;http://google.com/&quot;
-title=&quot;Google&quot;&amp;gt;Google&amp;lt;/a&amp;gt; than from
-&amp;lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&amp;gt;Yahoo&amp;lt;/a&amp;gt;
-or &amp;lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&amp;gt;MSN&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;For comparison, here is the same paragraph written using
-Markdown’s inline link style:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I get 10 times more traffic from [Google](http://google.com/ &quot;Google&quot;)
-than from [Yahoo](http://search.yahoo.com/ &quot;Yahoo Search&quot;) or
-[MSN](http://search.msn.com/ &quot;MSN Search&quot;).
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The point of reference-style links is not that they’re easier to write. The point is that with reference-style links, your document source is vastly more readable. Compare the above examples: using reference-style links, the paragraph itself is only 81 characters long; with inline-style links, it’s 176 characters; and as raw HTML, it’s 234 characters. In the raw HTML, there’s more markup than there is text.&lt;/p&gt;
-
-&lt;p&gt;With Markdown’s reference-style links, a source document much more
-closely resembles the final output, as rendered in a browser. By allowing you to move the markup-related metadata out of the paragraph, you can add links without interrupting the narrative flow of your prose.&lt;/p&gt;
-
-&lt;h3 id=&quot;em&quot;&gt;Emphasis&lt;/h3&gt;
-
-&lt;p&gt;Markdown treats asterisks (&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;) and underscores (&lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;) as indicators of emphasis. Text wrapped with one &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt; will be wrapped with an HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag; double &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;’s or &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;’s will be wrapped with an HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; tag. E.g., this input:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;em&amp;gt;single asterisks&amp;lt;/em&amp;gt;
-
-&amp;lt;em&amp;gt;single underscores&amp;lt;/em&amp;gt;
-
-&amp;lt;strong&amp;gt;double asterisks&amp;lt;/strong&amp;gt;
-
-&amp;lt;strong&amp;gt;double underscores&amp;lt;/strong&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can use whichever style you prefer; the lone restriction is that the same character must be used to open and close an emphasis span.&lt;/p&gt;
-
-&lt;p&gt;Emphasis can be used in the middle of a word:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;un*frigging*believable
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;But if you surround an &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt; with spaces, it’ll be treated as a literal asterisk or underscore.&lt;/p&gt;
-
-&lt;p&gt;To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\*this text is surrounded by literal asterisks\*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;To indicate a span of code, wrap it with backtick quotes (&lt;code class=&quot;highlighter-rouge&quot;&gt;`&lt;/code&gt;). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Use the `printf()` function.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;Use the &amp;lt;code&amp;gt;printf()&amp;lt;/code&amp;gt; function.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To include a literal backtick character within a code span, you can use
-multiple backticks as the opening and closing delimiters:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;``There is a literal backtick (`) here.``
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;which will produce this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;There is a literal backtick (`) here.&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The backtick delimiters surrounding a code span may include spaces — one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A single backtick in a code span: `` ` ``
-
-A backtick-delimited string in a code span: `` `foo` ``
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will produce:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;A single backtick in a code span: &amp;lt;code&amp;gt;`&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
-
-&amp;lt;p&amp;gt;A backtick-delimited string in a code span: &amp;lt;code&amp;gt;`foo`&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;With a code span, ampersands and angle brackets are encoded as HTML entities automatically, which makes it easy to include example HTML tags. Markdown will turn this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Please don't use any `&amp;lt;blink&amp;gt;` tags.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;into:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;Please don't use any &amp;lt;code&amp;gt;&amp;amp;lt;blink&amp;amp;gt;&amp;lt;/code&amp;gt; tags.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can write this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`&amp;amp;#8212;` is the decimal-encoded equivalent of `&amp;amp;mdash;`.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;to produce:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;&amp;amp;amp;#8212;&amp;lt;/code&amp;gt; is the decimal-encoded
-equivalent of &amp;lt;code&amp;gt;&amp;amp;amp;mdash;&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;img&quot;&gt;Images&lt;/h3&gt;
-
-&lt;p&gt;Admittedly, it’s fairly difficult to devise a “natural” syntax for placing images into a plain text document format.&lt;/p&gt;
-
-&lt;p&gt;Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: &lt;em&gt;inline&lt;/em&gt; and &lt;em&gt;reference&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Inline image syntax looks like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt text](/path/to/img.jpg)
-
-![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;That is:&lt;/p&gt;
+&lt;h3 id=&quot;and-an-ordered-list&quot;&gt;And an ordered list:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;Item three&lt;/li&gt;
+  &lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;and-a-nested-list&quot;&gt;And a nested list:&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;An exclamation mark: &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt;;&lt;/li&gt;
-  &lt;li&gt;followed by a set of square brackets, containing the &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt;
-attribute text for the image;&lt;/li&gt;
-  &lt;li&gt;followed by a set of parentheses, containing the URL or path to
-the image, and an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute enclosed in double
-or single quotes.&lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item
+        &lt;ul&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Reference-style image syntax looks like this:&lt;/p&gt;
+&lt;h3 id=&quot;small-image&quot;&gt;Small image&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt text][id]
+&lt;p&gt;&lt;img src=&quot;https://assets-cdn.github.com/images/icons/emoji/octocat.png&quot; alt=&quot;Octocat&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;large-image&quot;&gt;Large image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://guides.github.com/activities/hello-world/branching.png&quot; alt=&quot;Branching&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definition-lists-can-be-used-with-html-syntax&quot;&gt;Definition lists can be used with HTML syntax.&lt;/h3&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Name&lt;/dt&gt;
+&lt;dd&gt;Godzilla&lt;/dd&gt;
+&lt;dt&gt;Born&lt;/dt&gt;
+&lt;dd&gt;1952&lt;/dd&gt;
+&lt;dt&gt;Birthplace&lt;/dt&gt;
+&lt;dd&gt;Japan&lt;/dd&gt;
+&lt;dt&gt;Color&lt;/dt&gt;
+&lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Where “id” is the name of a defined image reference. Image references are defined using syntax identical to link references:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[id]: url/to/image  &quot;Optional title attribute&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;As of this writing, Markdown has no syntax for specifying the dimensions of an image; if this is important to you, you can simply use regular HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;misc&quot;&gt;Miscellaneous&lt;/h2&gt;
-
-&lt;h3 id=&quot;autolink&quot;&gt;Automatic Links&lt;/h3&gt;
-
-&lt;p&gt;Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;http://example.com/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown will turn this into:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=&quot;http://example.com/&quot;&amp;gt;http://example.com/&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Automatic links for email addresses work similarly, except that Markdown will also perform a bit of randomized decimal and hex entity-encoding to help obscure your address from address-harvesting spambots. For example, Markdown will turn this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;address@example.com&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;into something like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&amp;amp;#x6D;&amp;amp;#x61;i&amp;amp;#x6C;&amp;amp;#x74;&amp;amp;#x6F;:&amp;amp;#x61;&amp;amp;#x64;&amp;amp;#x64;&amp;amp;#x72;&amp;amp;#x65;
-&amp;amp;#115;&amp;amp;#115;&amp;amp;#64;&amp;amp;#101;&amp;amp;#120;&amp;amp;#x61;&amp;amp;#109;&amp;amp;#x70;&amp;amp;#x6C;e&amp;amp;#x2E;&amp;amp;#99;&amp;amp;#111;
-&amp;amp;#109;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x61;&amp;amp;#x64;&amp;amp;#x64;&amp;amp;#x72;&amp;amp;#x65;&amp;amp;#115;&amp;amp;#115;&amp;amp;#64;&amp;amp;#101;&amp;amp;#120;&amp;amp;#x61;&lt;/span&gt;
-&lt;span class=&quot;ni&quot;&gt;&amp;amp;#109;&amp;amp;#x70;&amp;amp;#x6C;&lt;/span&gt;e&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x2E;&amp;amp;#99;&amp;amp;#111;&amp;amp;#109;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;which will render in a browser as a clickable link to “address@example.com”.&lt;/p&gt;
-
-&lt;p&gt;(This sort of entity-encoding trick will indeed fool many, if not most, address-harvesting bots, but it definitely won’t fool all of them. It’s better than nothing, but an address published in this way will probably eventually start receiving spam.)&lt;/p&gt;
-
-&lt;h3 id=&quot;backslash&quot;&gt;Backslash Escapes&lt;/h3&gt;
-
-&lt;p&gt;Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag), you can use backslashes before the asterisks, like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\*literal asterisks\*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Markdown provides backslash escapes for the following characters:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\   backslash
-`   backtick
-*   asterisk
-_   underscore
-{}  curly braces
-[]  square brackets
-()  parentheses
-#   hash mark
-+	plus sign
--	minus sign (hyphen)
-.   dot
-!   exclamation mark
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The final element.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-                <link>http://username.github.io/markdown/2019/04/18/markdown-syntax</link>
-                <guid>http://username.github.io/markdown/2019/04/18/markdown-syntax</guid>
-                <pubDate>Thu, 18 Apr 2019 00:00:00 +0800</pubDate>
+                <link>/2019/04/30/markdown-demo</link>
+                <guid>/2019/04/30/markdown-demo</guid>
+                <pubDate>Tue, 30 Apr 2019 00:00:00 +0800</pubDate>
         </item>
 
         <item>
@@ -830,21 +208,11 @@ _   underscore
                 <description>&lt;!-- Markdown: Basics
 ================ --&gt;
 
-&lt;ul id=&quot;ProjectSubmenu&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/&quot; title=&quot;Markdown Project Page&quot;&gt;Main&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a class=&quot;selected&quot; title=&quot;Markdown Basics&quot;&gt;Basics&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/syntax&quot; title=&quot;Markdown Syntax Documentation&quot;&gt;Syntax&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/license&quot; title=&quot;Pricing and License Information&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/projects/markdown/dingus&quot; title=&quot;Online Markdown Web Form&quot;&gt;Dingus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&quot;getting-the-gist-of-markdowns-formatting-syntax&quot;&gt;Getting the Gist of Markdown’s Formatting Syntax&lt;/h2&gt;
 
-&lt;p&gt;This page offers a brief overview of what it’s like to use Markdown. The &lt;a href=&quot;/projects/markdown/syntax&quot; title=&quot;Markdown Syntax&quot;&gt;syntax page&lt;/a&gt; provides complete, detailed documentation for every feature, but Markdown should be very easy to pick up simply by looking at a few examples of it in action. The examples on this page are written in a before/after style, showing example syntax and the HTML output produced by Markdown.&lt;/p&gt;
+&lt;p&gt;This page offers a brief overview of what it’s like to use Markdown. The &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot; title=&quot;Markdown Syntax&quot;&gt;syntax page&lt;/a&gt; provides complete, detailed documentation for every feature, but Markdown should be very easy to pick up simply by looking at a few examples of it in action. The examples on this page are written in a before/after style, showing example syntax and the HTML output produced by Markdown.&lt;/p&gt;
 
-&lt;p&gt;It’s also helpful to simply try Markdown out; the &lt;a href=&quot;/projects/markdown/dingus&quot; title=&quot;Markdown Dingus&quot;&gt;Dingus&lt;/a&gt; is a web application that allows you type your own Markdown-formatted text and translate it to XHTML.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This document is itself written using Markdown; you can &lt;a href=&quot;/projects/markdown/basics.text&quot;&gt;see the source for it by adding ‘.text’ to the URL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It’s also helpful to simply try Markdown out; the &lt;a href=&quot;https://daringfireball.net/projects/markdown/dingus&quot; title=&quot;Markdown Dingus&quot;&gt;Dingus&lt;/a&gt; is a web application that allows you type your own Markdown-formatted text and translate it to XHTML.&lt;/p&gt;
 
 &lt;h2 id=&quot;paragraphs-headers-blockquotes&quot;&gt;Paragraphs, Headers, Blockquotes&lt;/h2&gt;
 
@@ -867,7 +235,7 @@ the aid of their country. This is just a
 regular paragraph.
 
 The quick brown fox jumped over the lazy
-dog's back.
+dog&#39;s back.
 
 &lt;span class=&quot;gu&quot;&gt;### Header 3&lt;/span&gt;
 &lt;span class=&quot;gt&quot;&gt;
@@ -889,7 +257,7 @@ the aid of their country. This is just a
 regular paragraph.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;The quick brown fox jumped over the lazy
-dog's back.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+dog&#39;s back.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Header 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
 
@@ -1097,7 +465,7 @@ entites like &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&amp;gt;&lt;/span&gt;&
 &lt;p&gt;Markdown:&lt;/p&gt;
 
 &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;sb&quot;&gt;
+you&#39;ve got to put paragraph tags in your blockquotes:&lt;span class=&quot;sb&quot;&gt;
 
     &amp;lt;blockquote&amp;gt;
         &amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;
@@ -1107,7 +475,7 @@ you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;sb&quo
 &lt;p&gt;Output:&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+you&#39;ve got to put paragraph tags in your blockquotes:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;lt;&lt;/span&gt;blockquote&lt;span class=&quot;ni&quot;&gt;&amp;amp;gt;&lt;/span&gt;
     &lt;span class=&quot;ni&quot;&gt;&amp;amp;lt;&lt;/span&gt;p&lt;span class=&quot;ni&quot;&gt;&amp;amp;gt;&lt;/span&gt;For example.&lt;span class=&quot;ni&quot;&gt;&amp;amp;lt;&lt;/span&gt;/p&lt;span class=&quot;ni&quot;&gt;&amp;amp;gt;&lt;/span&gt;
@@ -1115,8 +483,8 @@ you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;nt&quo
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-                <link>http://username.github.io/markdown/2019/04/18/markdown-basics</link>
-                <guid>http://username.github.io/markdown/2019/04/18/markdown-basics</guid>
+                <link>/markdown/2019/04/18/markdown-basics</link>
+                <guid>/markdown/2019/04/18/markdown-basics</guid>
                 <pubDate>Thu, 18 Apr 2019 00:00:00 +0800</pubDate>
         </item>
 
@@ -1168,7 +536,7 @@ you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;nt&quo
 &lt;span class=&quot;gp&quot;&gt;~#&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;Hello, World
 &lt;span class=&quot;go&quot;&gt;Hello, World
 
-&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;#&lt;/span&gt; don&lt;span class=&quot;s1&quot;&gt;'t run this
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;#&lt;/span&gt; don&lt;span class=&quot;s1&quot;&gt;&#39;t run this
 &lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;~#&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;rm -rf --no-preserve-root /
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1186,8 +554,8 @@ you've got to put paragraph tags in your blockquotes:&lt;span class=&quot;nt&quo
 &lt;span class=&quot;na&quot;&gt;three&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ken Griffey&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-                <link>http://username.github.io/jekyll/2019/01/29/hello-world</link>
-                <guid>http://username.github.io/jekyll/2019/01/29/hello-world</guid>
+                <link>/jekyll/2019/01/29/hello-world</link>
+                <guid>/jekyll/2019/01/29/hello-world</guid>
                 <pubDate>Tue, 29 Jan 2019 00:00:00 +0800</pubDate>
         </item>
 
@@ -1605,11 +973,11 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at &lt;a href=&quot;/jekyll-bootstrap&quot;&gt;&lt;/a&gt;
-or jump right into &lt;a href=&quot;/jekyll-bootstrap&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
+&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>/lessons/2011/12/29/jekyll-introduction</guid>
                 <pubDate>Thu, 29 Dec 2011 00:00:00 +0800</pubDate>
         </item>
 

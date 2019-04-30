@@ -1,23 +1,14 @@
 ---
 layout: post
-# title: Markdown Basics
+title: Markdown Basics
 category : markdown
 tags : [beginner, markdown]
-author: JOHN GRUBER
-link: https://daringfireball.net/
+author: John Gruber
+link: https://daringfireball.net/projects/markdown/basics
 ---
 
 <!-- Markdown: Basics
 ================ -->
-
-<ul id="ProjectSubmenu">
-    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
-    <li><a class="selected" title="Markdown Basics">Basics</a></li>
-    <li><a href="/projects/markdown/syntax" title="Markdown Syntax Documentation">Syntax</a></li>
-    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
-    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
-</ul>
-
 
 Getting the Gist of Markdown's Formatting Syntax
 ------------------------------------------------
@@ -26,12 +17,8 @@ This page offers a brief overview of what it's like to use Markdown. The [syntax
 
 It's also helpful to simply try Markdown out; the [Dingus] [d] is a web application that allows you type your own Markdown-formatted text and translate it to XHTML.
 
-**Note:** This document is itself written using Markdown; you can [see the source for it by adding '.text' to the URL] [src].
-
-[s]: /projects/markdown/syntax  "Markdown Syntax"
-[d]: /projects/markdown/dingus  "Markdown Dingus"
-[src]: /projects/markdown/basics.text
-
+[s]: https://daringfireball.net/projects/markdown/syntax  "Markdown Syntax"
+[d]: https://daringfireball.net/projects/markdown/dingus  "Markdown Dingus"
 
 ## Paragraphs, Headers, Blockquotes ##
 
@@ -92,8 +79,6 @@ dog's back.</p>
 </blockquote>
 ```
 
-
-
 ### Phrase Emphasis ###
 
 Markdown uses asterisks and underscores to indicate spans of emphasis.
@@ -117,8 +102,6 @@ Some of these words <em>are emphasized also</em>.</p>
 <p>Use two asterisks for <strong>strong emphasis</strong>.
 Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 ```
-
-
 
 ## Lists ##
 
@@ -263,7 +246,6 @@ Output:
 <a href="http://www.nytimes.com/">The New York Times</a>.</p>
 ```
 
-
 ### Images ###
 
 Image syntax is very much like link syntax.
@@ -287,8 +269,6 @@ Both of the above examples produce the same output:
 ```html
 <img src="/path/to/img.jpg" alt="alt text" title="Title" />
 ```
-
-
 
 ### Code ###
 

@@ -1,4 +1,6 @@
-{% capture jbcache %}{% comment %}
+{% capture jbcache %}
+
+{% comment %}
 
   Sort the given array or map.
   

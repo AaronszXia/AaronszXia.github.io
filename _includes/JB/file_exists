@@ -1,4 +1,5 @@
 {% comment %}<!--
+
   param:  file = "/example/file.png"
   return: file_exists_result = true
   

@@ -1,4 +1,5 @@
 {% comment %}<!--
+
 Collate_posts helper. Collated posts by year and month.
 Usage:
   1) assign the 'posts_collate' variable to a valid array of posts.

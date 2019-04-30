@@ -1,7 +1,5 @@
 ---
 layout: default
-# title: Aaronsz's Blog
-# description: 'A blog powered by Jekyll, hosted on GitHub.'
 published: true
 ---
 

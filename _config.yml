@@ -1,13 +1,13 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 title: Aaronsz's Blog
-tagline: A blog you've never seen before!
+description: A blog you've never seen before!
 author:
   name: Aaronsz Xia
   email: 1197393094@qq.com
-  github: AaronszXia
-  ### twitter : twittername
-  ### feedburner : feedname
+  github: aaronszxia
+  twitter : aaronszxia
+  feedburner : feedname
 
 JB :
   archive_path: /archive.html
@@ -20,12 +20,11 @@ JB :
     provider: gitalk
     duoshuo:
       short_name : jekyllbootstrap
-
     gitalk:
       clientID: a86c2379ac1cc4fbc303
       clientSecret: 0e301c07a8734a5a78865d5e2b8c0b312e0d8073
-      repo: AaronszXia.github.io
-      owner: AaronszXia
+      repo: aaronszxia.github.io
+      owner: aaronszxia
       admin: ["admin_1", "admin_2", "admin_3"]    # 由于技术原因，请到 /_includes/JB/comments-providers/gitalk 文件中修改
       id: md5(location.pathname)                  # Ensure uniqueness and length less than 50
       distractionFreeMode: false                  # Facebook-like distraction free mode
@@ -33,7 +32,6 @@ JB :
   analytics:
     provider: google
     google: 
-        # tracking_id: 'UA-123-12'
         tracking_id: 'UA-138729552-1'
         
   sharing :
