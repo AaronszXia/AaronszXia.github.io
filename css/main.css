@@ -355,3 +355,10 @@ body {
 .footer p:last-child {
     margin-bottom: 0;
 }
+
+/**
+ * 防止超大图片显示面积过大
+ */
+.img {
+    max-width: 100%;
+}
