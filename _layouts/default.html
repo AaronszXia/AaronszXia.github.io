@@ -8,7 +8,12 @@
   <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
   
-  <title>{{ page.title }}</title>
+  <title>
+    {% if page.title %}
+      {{ page.title }} | 
+    {% endif %}  
+    
+    {{ site.title }}</title>
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
   {% endif %}

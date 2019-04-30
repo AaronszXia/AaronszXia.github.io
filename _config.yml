@@ -18,17 +18,6 @@ JB :
 
   comments:
     provider: gitalk
-    disqus:
-      short_name: jekyllbootstrap
-    livefyre:
-      site_id: 123
-    intensedebate:
-      account: 123abc
-    facebook:
-      appid: 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
     duoshuo:
       short_name : jekyllbootstrap
 
@@ -43,19 +32,10 @@ JB :
    
   analytics:
     provider: google
-    gauges:
-        site_id: 'SITE ID'
     google: 
         # tracking_id: 'UA-123-12'
         tracking_id: 'UA-138729552-1'
-    getclicky:
-      site_id: 
-    mixpanel:
-        token: '_MIXPANEL_TOKEN_'
-    piwik:
-        baseURL: 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite: '1'                   # the id of the site on Piwik
-
+        
   sharing :
     provider : false
       
