@@ -12,7 +12,7 @@
     clientSecret: "{{ site.JB.comments.gitalk.clientSecret}}",
     repo: "{{ site.JB.comments.gitalk.repo}}",
     owner: "{{ site.JB.comments.gitalk.owner}}",
-    admin: ["AaronszXia", "A"],
+    admin: ["AaronszXia"],
     id: {{ site.JB.comments.gitalk.id}},
     distractionFreeMode: {{ site.JB.comments.gitalk.distractionFreeMode}}
   })
