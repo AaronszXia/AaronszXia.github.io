@@ -30,7 +30,7 @@ JB :
       distractionFreeMode: false                  # Facebook-like distraction free mode
    
   analytics:
-    provider: google
+    provider: baidu
     google: 
         tracking_id: 'UA-138729552-1'
         
