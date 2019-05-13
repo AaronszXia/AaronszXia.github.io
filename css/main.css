@@ -357,8 +357,14 @@ body {
 }
 
 /**
- * 防止超大图片显示面积过大
+ * 图片样式自定义
  */
 img {
+    /* 防止超大图片显示面积过大 */
     max-width: 100%;
+
+    /* 图片居中 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
