@@ -6,8 +6,11 @@ author:
   name: Aaronsz Xia
   email: 1197393094@qq.com
   github: aaronszxia
-  twitter : aaronszxia
-  feedburner : feedname
+  weibo:
+    username: "华之腾啊"
+    link: https://weibo.com/u/2185032634/
+  twitter: aaronszxia
+  feedburner: feedname
 
 JB :
   archive_path: /archive.html

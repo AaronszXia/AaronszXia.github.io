@@ -3,7 +3,7 @@ layout: post
 title: Creating and Hosting a Personal Site on GitHub
 category: jekyll
 tags: [intro, jekyll, tutorial]
-published: true
+published: false
 ---
 
 <!-- # Creating and Hosting a Personal Site on GitHub -->
