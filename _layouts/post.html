@@ -23,19 +23,19 @@ layout: default
 <!-- Tag-box -->
 <hr>
 {% unless page.categories == empty %}
-<ul class="tag_box inline">
-  <li><i class="fas fa-folder-open"></i></li>
+<p>
+  <i class="fas fa-folder-open"></i>
   {% assign categories_list = page.categories %}
   {% include JB/categories_list %}
-</ul>
+</p>
 {% endunless %}  
 
 {% unless page.tags == empty %}
-<ul class="tag_box inline">
-  <li><i class="fas fa-tags"></i></li>
+<p>
+  <i class="fas fa-tags"></i>
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
-</ul>
+</p>
 {% endunless %}  
 
 <!-- Pagination -->
