@@ -5,12 +5,9 @@ header: Posts By Tag
 group: navigation
 ---
 
-<ul class="tag_box inline">
-  <li><i class="fas fa-tags"></i></li>
-  {% assign tags_list = site.tags %}
-  {% include JB/tags_list %}
-</ul>
-
+<li><i class="fas fa-tags"></i></li>
+{% assign tags_list = site.tags %}
+{% include JB/tags_list %}
 
 {% for tag in site.tags %}
   <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
