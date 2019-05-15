@@ -22,20 +22,20 @@ Usage:
 	
 -->{% endcomment %}
 
-{% if site.JB.pages_list.provider == "custom" %}
-  {% include custom/pages_list %}
-{% else %}
-  {% for node in pages_list %}
-    {% if node.title != null %}
-      {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></li>
-      	{% else %}
-      	<li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></li>
-      	{% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{% for node in pages_list %}													<!-- 遍历 pages_list 数组中每个元素 -->
+	{% if node.title != null %}	 												<!-- 当前元素为 node（实际上为一个页面），如果当前元素的页面标题非空 -->
+		{% if group == null or group == node.group %}	 		<!-- 当没有指派 group 的值或当前页面的 group 值与指派的 group 值相同时 -->
+			{% if page.url == node.url %}  									<!-- 如果当前页面就是当前元素所表示的页面（当前页面的路径与当前结点所表示的页面的路径相同） -->
+				<!-- 活动（active）的超链接 -->
+			  <li class="active"><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></li>
+			{% else %}																			<!-- 如果不是当前页面不是当前元素所表示的页面 -->
+				<!-- 普通超链接 -->
+				<li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></li>
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+<!-- 将 pages_list 和 group 变量指派为空 -->
 {% assign pages_list = nil %}
 {% assign group = nil %}

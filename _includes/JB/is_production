@@ -1,6 +1,6 @@
 {% capture jbcache %}
 
-{% comment %}
+{% comment %}<!--
 
   Determine whether or not the site is being built in a production environment.
   
@@ -23,7 +23,7 @@
     <h3>This is Public</h3>
     <p>I have no unusual quirks.</p>
 
-{% endcomment %}
+-->{% endcomment %}
 
 {% assign is_production = false %}
 {% assign jb_prod_env = "development" %}
@@ -38,4 +38,6 @@
   {% assign jb_prod_env = "github" %}
 {% endif %}
 
-{% endcapture %}{% assign jbcache = nil %}
+{% endcapture %}
+
+{% assign jbcache = nil %}

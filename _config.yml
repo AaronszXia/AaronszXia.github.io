@@ -36,8 +36,5 @@ JB :
     provider: baidu
     google: 
         tracking_id: 'UA-138729552-1'
-        
-  sharing :
-    provider : false
       
 # baseurl: "/jekyll-bootstrap"

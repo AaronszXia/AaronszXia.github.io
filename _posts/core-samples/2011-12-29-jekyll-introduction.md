@@ -235,15 +235,18 @@ There is a special variable in all templates named : `content`.
 The `content` variable holds the page/post content including any sub-template content previously defined.
 Render the content variable wherever you want your main content to be injected into your template:
 
-{% capture text %}...
-<body>
-  <div id="sidebar"> ... </div>
-  <div id="main">
-    |.{content}.|
-  </div>
-</body>
-...{% endcapture %}
-{% include JB/liquid_raw %}
+{% raw %}
+
+    ...
+    <body>
+      <div id="sidebar"> ... </div>
+      <div id="main">
+        {{content}}
+      </div>
+    </body>
+    ...
+
+{% endraw %}
 
 ### Sub-Templates
 
@@ -304,9 +307,6 @@ Static assets are any file in the root or non-underscored subfolders that are no
 That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.
 
 Static assets should be used for images, css, and javascript files.
-
-
-
 
 ## How Jekyll Parses Files
 
