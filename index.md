@@ -19,7 +19,7 @@ published: true
 
 希望你能够喜欢它的页面布局。
 
-它的源码已经在 GitHub 上开源，如果你感兴趣，可以在[这儿](https://github.com/AaronszXia/aaronsz.github.io)找到它。
+它的源码已经在 GitHub 上开源，如果你感兴趣，可以在[这儿](https://github.com/aaronszxia/aaronszxia.github.io)找到它。
 
 你可以自由地使用这个项目里的部分或者全部代码，没有任何版权限制。当然，如果你使用的时候能够署上我的名字和添加一个指向这个网站的超链接，我将会非常感谢。
 {% if is_production != true %}
