@@ -1,8 +1,7 @@
 ---
 layout: post
 category : tests
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags: [转载, beginner, jekyll, markdown]
 ---
 
 This is an example of a draft. Read more here: [http://jekyllrb.com/docs/drafts/](http://jekyllrb.com/docs/drafts/)

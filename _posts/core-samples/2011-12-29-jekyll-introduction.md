@@ -3,7 +3,7 @@ layout: post
 # title: "Jekyll Introduction"
 # tagline: "Supporting tagline"
 category : lessons
-tags : [intro, beginner, jekyll, tutorial]
+tags : [转载, intro, beginner, jekyll, tutorial]
 ---
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
@@ -19,8 +19,6 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 ### Examples
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
-
-
 
 ### What does Jekyll Do?
 
@@ -124,14 +122,10 @@ Jekyll expects your website directory to be laid out like so:
 
 (read more: <https://github.com/mojombo/jekyll/wiki/Usage>)
 
-
 ### Jekyll Configuration
 
 Jekyll supports various configuration options that are fully outlined here:
 (<https://github.com/mojombo/jekyll/wiki/Configuration>)
-
-
-
 
 ## Content in Jekyll
 

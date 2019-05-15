@@ -1,7 +1,7 @@
 ---
 layout: post
 cattgory: demo
-tags : [demo, markdown]
+tags : [转载, demo, markdown]
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

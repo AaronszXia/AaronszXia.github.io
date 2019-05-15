@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Jekyll!"
 category: jekyll
-tags: [demo, beginner, jekyll]
+tags: [转载, demo, beginner, jekyll]
 ---
 
 **Hello world**, this is my first Jekyll blog post.

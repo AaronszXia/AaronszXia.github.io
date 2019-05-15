@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Basics
 category : markdown
-tags : [beginner, markdown]
+tags : [转载, beginner, markdown]
 author: John Gruber
 link: https://daringfireball.net/projects/markdown/basics
 ---
