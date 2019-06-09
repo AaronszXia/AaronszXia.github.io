@@ -2,30 +2,6 @@
 layout: default
 ---
 
-<!-- 目录与 ScrollSpy 效果 -->
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/jquery.toc.js"></script>
-<!-- This css contains the default style for TOC -->
-<link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/toc.css">
-<style type="text/css">
-  #renderIn {
-    margin-left: 3em;
-  }
-</style>
-<script type="text/javascript">
-  $(function() {
-    $('#content').toc({
-      showAlways:true,
-      renderIn:'#renderIn',
-      contentsText:"Legenda",
-      hideText:'Collapse',
-      showText:'Expand',
-      showCollapsed:true
-    });
-  });
-</script>
-<!-- 目录与 ScrollSpy 效果 -->
-
 <div>
   <h1>{{ page.title }}</h1>
 </div>

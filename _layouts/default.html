@@ -47,6 +47,30 @@
 
   <!-- Font Awesome 图标库 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- 目录与 ScrollSpy 效果 -->
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/js/jquery.toc.js"></script>
+  <!-- This css contains the default style for TOC -->
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/toc.css">
+  <style type="text/css">
+    #renderIn {
+      margin-left: 3em;
+    }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $('#content').toc({
+        showAlways:true,
+        renderIn:'#renderIn',
+        contentsText:"Legenda",
+        hideText:'Collapse',
+        showText:'Expand',
+        showCollapsed:true
+      });
+    });
+  </script>
+  <!-- 目录与 ScrollSpy 效果 -->
 </head>
 
 <body class="d-flex flex-column h-100">
