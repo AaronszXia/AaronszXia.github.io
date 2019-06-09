@@ -14,7 +14,7 @@ layout: default
 </style>
 <script type="text/javascript">
   $(function() {
-    $('#main').toc({
+    $('#content').toc({
       showAlways:true,
       renderIn:'#renderIn',
       contentsText:"Legenda",
@@ -41,7 +41,7 @@ layout: default
 
 <hr>
 <div class="row">
-  <div class="col-md-8">
+  <div id="content" class="col-md-8">
     {{ content }}
   </div>
   <div id="renderIn" class="col-md-4 d-none d-md-block"></div>
