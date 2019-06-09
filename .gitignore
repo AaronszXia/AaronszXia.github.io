@@ -5,3 +5,24 @@ Thumbs.db
 .DS_Store
 
 !.gitkeep
+
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Visual Studio Code
+.vscode
+
+# intelliJ IDEA
+.idea
+out
+
+# Eclipse
