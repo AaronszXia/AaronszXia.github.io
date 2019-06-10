@@ -13,7 +13,7 @@ published: true
 
 目前是[皇家邮电大学](http://www.njupt.edu.cn "南京邮电大学")软件工程专业大三学生，现任**管理学院科学与技术协会科研中心主任**。
 
-欢迎访问我的个人网站！这个网站采用 Jekyll 技术生成静态网页文件，托管于 GitHub Pages 上，由 Bootstrap 提供网页响应式布局。网站所使用的图标来源于[Font Awesome](https://fontawesome.com)在线图标库（由于服务器位于国外，初次打开本网站加载图标的时间可能会画一点时间）。
+欢迎访问我的个人网站！这个网站采用 Jekyll 技术生成静态网页文件，托管于 GitHub Pages 上，由 Bootstrap 提供网页响应式布局。网站所使用的图标来源于 [Font Awesome](https://fontawesome.com) 在线图标库（由于服务器位于国外，初次打开本网站加载图标的时间可能会画一点时间）。
 
 作为一个理工男，我并不认为我的审美足够地好。因此，在保证此网站的所有页面能够正常、恰当地工作的前提下，我极少使用自定义样式，其余全采用 Bootstrap 和 Jekyll 的默认样式。
 

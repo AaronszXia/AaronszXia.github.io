@@ -20,47 +20,93 @@ layout: default
   <div class="col-lg-8">
     {{ content }}
   </div>
-  <div id="renderIn" class="col-lg-4 d-none"></div>
-</div>
 
-<!-- Tag-box -->
-<hr>
-{% unless page.categories == empty %}
-<p>
-  <i class="fas fa-folder-open"></i>
-  {% assign categories_list = page.categories %}
-  {% include JB/categories_list %}
-</p>
-{% endunless %}  
+  <div class="sidebar col-lg-4 d-none d-lg-block">
+    <div id="renderIn"></div>
 
-{% unless page.tags == empty %}
-<p>
-  <i class="fas fa-tags"></i>
-  {% assign tags_list = page.tags %}
-  {% include JB/tags_list %}
-</p>
-{% endunless %}  
+    <!-- Tag-box -->
+    <hr>
+    {% unless page.categories == empty %}
+    <p>
+      <i class="fas fa-folder-open"></i>
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+    </p>
+    {% endunless %}  
 
-<!-- Pagination -->
-<hr>
-<div aria-label="Page navigation example">
-  <ul class="pagination justify-content-center">
-    
-    {% if page.previous %}
-      <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-    {% else %}
-      <li class="page-item disabled"><a class="page-link">&larr; Previous</a></li>
-    {% endif %}
+    {% unless page.tags == empty %}
+    <p>
+      <i class="fas fa-tags"></i>
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </p>
+    {% endunless %}
 
-    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ site.JB.archive_path }}">Archive</a></li>
+    <!-- Pagination -->
+    <hr>
+    <div aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        
+        {% if page.previous %}
+          <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">&larr; Previous</a></li>
+        {% endif %}
+
+        <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ site.JB.archive_path }}">Archive</a></li>
+      
+        {% if page.next %}
+          <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+        {% else %}
+          <li class="page-item disabled"><a class="page-link">Next &rarr;</a>
+        {% endif %}
+
+      </ul>
+    </div>
+
+  </div>
   
-    {% if page.next %}
-      <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-    {% else %}
-      <li class="page-item disabled"><a class="page-link">Next &rarr;</a>
-    {% endif %}
+</div>
+<div class="d-lg-none">
+  <!-- Tag-box -->
+  <hr>
+  {% unless page.categories == empty %}
+  <p>
+    <i class="fas fa-folder-open"></i>
+    {% assign categories_list = page.categories %}
+    {% include JB/categories_list %}
+  </p>
+  {% endunless %}  
 
-  </ul>
+  {% unless page.tags == empty %}
+  <p>
+    <i class="fas fa-tags"></i>
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+  </p>
+  {% endunless %}
+
+  <!-- Pagination -->
+  <hr>
+  <div aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      
+      {% if page.previous %}
+        <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+      {% else %}
+        <li class="page-item disabled"><a class="page-link">&larr; Previous</a></li>
+      {% endif %}
+
+      <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ site.JB.archive_path }}">Archive</a></li>
+    
+      {% if page.next %}
+        <li class="page-item"><a class="page-link" href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+      {% else %}
+        <li class="page-item disabled"><a class="page-link">Next &rarr;</a>
+      {% endif %}
+
+    </ul>
+  </div>
 </div>
 
 <!-- Comments -->

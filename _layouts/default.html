@@ -48,29 +48,41 @@
   <!-- Font Awesome 图标库 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <!-- 目录与 ScrollSpy 效果 -->
+  <!-- 自动生成目录 -->
+  <!-- This css contains the default style for TOC -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/toc.css" />
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/js/jquery.toc.js"></script>
-  <!-- This css contains the default style for TOC -->
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/toc.css">
-  <style type="text/css">
+  <!-- <style type="text/css">
     #renderIn {
       margin-left: 3em;
     }
-  </style>
+  </style> -->
   <script type="text/javascript">
     $(function() {
-      $('#content').toc({
+      $("#content").toc({
         showAlways:true,
-        renderIn:'#renderIn',
-        contentsText:"Legenda",
-        hideText:'Collapse',
-        showText:'Expand',
-        showCollapsed:true
+        renderIn: "#renderIn",
+        contentsText: "本文目录",
+        hideText: "折叠",
+        showText: "展开",
       });
     });
   </script>
-  <!-- 目录与 ScrollSpy 效果 -->
+  <!-- 自动生成目录 -->
+
+  <!-- sidebar 智能侧边栏 -->
+  <script type="text/javascript" src="{{ site.baseurl }}/js/theia-sticky-sidebar.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery('.sidebar').theiaStickySidebar({
+        // Settings
+        additionalMarginTop: 80
+      });
+    });
+  </script>
+  <!-- sidebar 智能侧边栏 -->
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -135,9 +147,9 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
