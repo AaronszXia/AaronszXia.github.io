@@ -321,9 +321,9 @@ img {
 /**
  * 解决锚链接缩进问题
  */
- .col-lg-8>h2[id]::before, .col-lg-8>h3[id]::before, .col-lg-8>h4[id]::before {
+ [id|=tocAnchor] {
     display: block;
-    height: 6rem;
-    margin-top: -6rem;
+    height: 5rem;
+    margin-top: -5rem;
     content: "";
 }
