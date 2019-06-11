@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Aaronsz Xia
+title: About
 ---
 <!-- # Hi there, I'm Aaronsz Xia!
 

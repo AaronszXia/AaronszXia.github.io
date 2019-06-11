@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 published: true
 ---
 {% include JB/is_production %}

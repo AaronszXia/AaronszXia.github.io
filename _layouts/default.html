@@ -91,7 +91,7 @@
   <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container d-flex justify-content-between">
       
-      <a class="navbar-brand" href="{{ site.baseurl }}/index.html">Aaronsz</a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/index" style="border-style: solid; border-radius: 5px; width: 46px; text-align: center;">A</a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -103,17 +103,20 @@
           <a class="nav-link" href="{{ site.baseurl }}/index.html">Home<span class="sr-only">(current)</span></a>
         </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+            <a class="nav-link {% if page.title == 'Home' %}active{% endif %}" href="{{ site.baseurl }}/index">Home</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link {% if page.layout == 'post' or page.layout == '8-4' %}active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/cv">CV</a>
+            <a class="nav-link {% if page.title == 'CV' %}active{% endif %}" href="{{ site.baseurl }}/cv">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            <a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ site.baseurl }}/about">About</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link disabled" href="">Cover Page</a>
-          </li>
+          </li> -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search (unavailable)"
