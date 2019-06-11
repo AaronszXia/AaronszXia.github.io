@@ -3,12 +3,6 @@ layout: default
 title: Home
 published: true
 ---
-{% include JB/is_production %}
-    
-{% if is_production != true %}
-  <h3>This is Private</h3>
-  <p>I love to watch television in my undies. Don't tell anyone!</p>
-{% endif %}
 
 # 你好，我叫**夏龙飞**!
 
@@ -25,13 +19,13 @@ published: true
 它的源码已经在 GitHub 上开源，如果你感兴趣，可以在[这儿](https://github.com/aaronszxia/aaronszxia.github.io)找到它。
 
 你可以自由地使用这个项目里的部分或者全部代码，没有任何版权限制。当然，如果你使用的时候能够署上我的名字和添加一个指向这个网站的超链接，我将会非常感谢。
-{% if is_production != true %}
-Welcome to my personal website! This site is a customization of Bootstrap 4.1.3, powered by Jekyll, hosted on GitHub.
+
+<!-- Welcome to my personal website! This site is a customization of Bootstrap 4.1.3, powered by Jekyll, hosted on GitHub.
 
 You can find its source code [here](https://github.com/AaronszXia/jekyll-bootstrap) if you are interested in it.
 
-Feel free to copy and re-use any and all of the code contained here without contacting me.
-{% endif %}
+Feel free to copy and re-use any and all of the code contained here without contacting me. -->
+
 这个网站使用到的服务和涉及到的技术主要有：
 - 网站托管 > [GitHub Pages](https://pages.github.com/)
 - 网站生成 > [Jekyll](https://jekyllrb.com)、[Liquid](https://shopify.github.io/liquid/ "An open-source template language")
@@ -39,6 +33,8 @@ Feel free to copy and re-use any and all of the code contained here without cont
 - 评论服务 > [gitalk](https://gitalk.github.io/)
 - 网页统计服务 > [百度统计](https://tongji.baidu.com)
 - 图标 > [Font Awesome](https://fontawesome.com)
+- 文档目录生成 > [TOC Generator for Markdown](https://github.com/dafi/tocmd-generator)
+- 智能侧边栏 > [Theia Sticky Sidebar](https://github.com/WeCodePixels/theia-sticky-sidebar)
 - 其他 > [rss](https://zh.wikipedia.org/wiki/RSS "简易信息聚合")
 
 <!-- ## Here's the posts list: -->
@@ -50,3 +46,12 @@ Feel free to copy and re-use any and all of the code contained here without cont
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+{% include JB/is_production %}
+{% if is_production != true %}
+  <h3>This is Private</h3>
+  <p>I love to watch television in my undies. Don't tell anyone!</p>
+
+  <h1>调试信息</h1>
+  <p></p>
+{% endif %}
