@@ -323,7 +323,7 @@ img {
  */
  [id|=tocAnchor]::before {
     display: block;
-    height: 4rem;
-    margin-top: -4rem;
+    height: 5rem;
+    margin-top: -5rem;
     content: "";
 }
