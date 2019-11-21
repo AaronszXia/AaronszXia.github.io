@@ -38,4 +38,5 @@ JB :
     google: 
         tracking_id: 'UA-138729552-1'
       
-# baseurl: "/jekyll-bootstrap"
+# 如果你的个人网站项目不是放在 username.github.io 仓库，而是放在了名为 repo 的仓库里，需要添加一个如下的 baseurl
+# baseurl: "/repo"
