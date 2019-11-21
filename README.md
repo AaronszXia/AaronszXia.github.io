@@ -1,3 +1,3 @@
 # aaronszxia.github.io
 
-Data for [my personal website](https://www.aaronsz.com/ "https://www.aaronsz.com/").
+[个人网站](https://www.aaronsz.com/ "https://www.aaronsz.com/") 的源码。
