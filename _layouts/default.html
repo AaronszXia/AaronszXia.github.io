@@ -33,9 +33,9 @@
 
   <!-- Custom styles -->
   <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/code.css" rel="stylesheet">
 
-  <!-- Fav and touch icons -->
-  <!-- Update these with your own images -->
+  <!-- 网站图标或 logo -->
   <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/images/apple-touch-icon-72x72.png">
@@ -85,9 +85,12 @@
     });
   </script>
   <!-- sidebar 智能侧边栏 -->
+
 </head>
 
 <body class="d-flex flex-column h-100">
+
+  <!-- 导航栏 -->
   <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container d-flex justify-content-between">
       
@@ -128,15 +131,20 @@
     </div>
   </div>
 
+  <!-- 主容器 -->
   <div class="container">
     
     {{ content }}
 
+    <!-- 调试信息 -->
+    {% include made-by-myself/debug-info.html %}
+
   </div>
 
+  <!-- 页脚 -->
   <div class="footer mt-auto">
     <div class="container">
-      <!-- 为了能够将网站访问量数据实时地展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
+      <!-- 为了能够将网站访问量数据实时地展示在 footer 部分，暂时忍受 umeng 的垃圾网站统计脚本 -->
       <!-- 网站数据统计脚本 -->
       <p>
         {% include JB/analytics-providers/umeng %}

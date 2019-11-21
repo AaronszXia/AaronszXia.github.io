@@ -1,11 +1,3 @@
-_site
-_theme_packages
-
-Thumbs.db
-.DS_Store
-
-!.gitkeep
-
 # Windows
 [Dd]esktop.ini
 Thumbs.db
@@ -18,11 +10,11 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 
+# Jekyll
+_site
+_theme_packages
+
 # Visual Studio Code
-.vscode
+# .vscode
 
-# intelliJ IDEA
-.idea
-out
-
-# Eclipse
+!.gitkeep
