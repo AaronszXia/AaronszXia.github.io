@@ -35,4 +35,4 @@ published: true
 
 ## 这是我近期原创或转载的一些文章:
 
-{% include made-by-myself/posts-list.html %}
+{% include made-by-myself/posts-list %}

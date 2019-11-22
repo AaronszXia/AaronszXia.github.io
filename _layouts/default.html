@@ -137,18 +137,13 @@
     {{ content }}
 
     <!-- 调试信息 -->
-    {% include made-by-myself/debug-info.html %}
+    {% include made-by-myself/debug-info %}
 
   </div>
 
   <!-- 页脚 -->
   <div class="footer mt-auto">
     <div class="container">
-      <!-- 为了能够将网站访问量数据实时地展示在 footer 部分，暂时忍受 umeng 的垃圾网站统计脚本 -->
-      <!-- 网站数据统计脚本 -->
-      <p>
-        {% include JB/analytics-providers/umeng %}
-      </p>
       <p>
         &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
       </p>
