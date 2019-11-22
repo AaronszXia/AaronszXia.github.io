@@ -34,9 +34,9 @@ JB :
       distractionFreeMode: false                  # Facebook-like distraction free mode
    
   analytics:
-    provider: baidu
+    provider: google
     google: 
-        tracking_id: 'UA-138729552-1'
+        tracking_id: 'UA-153103715-1'
       
 # 如果你的个人网站项目不是放在 username.github.io 仓库，而是放在了名为 repo 的仓库里，需要添加一个如下的 baseurl
 # baseurl: "/repo"

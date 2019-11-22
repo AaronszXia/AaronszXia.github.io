@@ -8,8 +8,7 @@
 
 {% when "baidu" %}
   {% include JB/analytics-providers/baidu %}
-{% when "umeng" %}
-  {% include JB/analytics-providers/umeng %}
+
 {% endcase %}
 
 {% endif %}
