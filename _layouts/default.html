@@ -106,16 +106,16 @@
           <a class="nav-link" href="{{ site.baseurl }}/index.html">Home<span class="sr-only">(current)</span></a>
         </li> -->
           <li class="nav-item">
-            <a class="nav-link {% if page.title == 'Home' %}active{% endif %}" href="{{ site.baseurl }}/index">Home</a>
+            <a class="nav-link {% if page.title == 'Home' %}active{% endif %}" href="{{ site.baseurl }}/index">首页</a>
           </li>  
           <li class="nav-item">
-            <a class="nav-link {% if page.layout == 'post' or page.layout == '8-4' %}active{% endif %}" href="{{ site.baseurl }}/blog">Blog</a>
+            <a class="nav-link {% if page.layout == 'post' or page.layout == '8-4' %}active{% endif %}" href="{{ site.baseurl }}/blog">博客</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.title == 'CV' %}active{% endif %}" href="{{ site.baseurl }}/cv">CV</a>
+            <a class="nav-link {% if page.title == 'CV' %}active{% endif %}" href="{{ site.baseurl }}/cv">简历</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+            <a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ site.baseurl }}/about">关于</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="">Cover Page</a>
@@ -124,7 +124,7 @@
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search (unavailable)"
             aria-label="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">搜索</button>
         </form>
       </div>
       
@@ -151,6 +151,9 @@
 
   <!-- 网站数据统计脚本 -->
   {% include JB/analytics %}
+
+  <!-- Map Widget provided by ClustrMaps.com -->
+  <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=IwC9fpnRbvTHZdspX1HWXkCwHCWI90zG4UCVL4SQ1X4"></script>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
