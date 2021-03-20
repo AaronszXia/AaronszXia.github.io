@@ -22,14 +22,14 @@ published: true
 
 这个网站使用到的服务和涉及到的技术主要有：
 - 网站托管 > [GitHub Pages](https://pages.github.com/)
-- 网站生成 > [Jekyll](https://jekyllrb.com)、[Liquid](https://shopify.github.io/liquid/ "An open-source template language")
-- 网页样式 > [Bootstrap](https://getbootstrap.com)、[Jekyll Bootstrap](http://jekyllbootstrap.com "The Definitive Jekyll Blogging Framework")
+- 网站生成 > [Jekyll](https://jekyllrb.com/)、[Liquid](https://shopify.github.io/liquid/ "An open-source template language")
+- 网页样式 > [Bootstrap](https://getbootstrap.com/)、[Jekyll Bootstrap](http://jekyllbootstrap.com/ "The Definitive Jekyll Blogging Framework")
 - 评论服务 > [gitalk](https://gitalk.github.io/)
-- 网页统计服务 > [百度统计](https://tongji.baidu.com)
-- 图标 > [Font Awesome](https://fontawesome.com)
-- 文档目录生成 > [TOC Generator for Markdown](https://github.com/dafi/tocmd-generator)
-- 智能侧边栏 > [Theia Sticky Sidebar](https://github.com/WeCodePixels/theia-sticky-sidebar)
-- 其他 > [rss](https://zh.wikipedia.org/wiki/RSS "简易信息聚合")
+- 网页统计服务 > [Google Analytics](https://analytics.google.com/)、[ClustrMaps](https://clustrmaps.com/)、[百度统计](https://tongji.baidu.com)
+- 图标 > [Font Awesome](https://fontawesome.com/)
+- 文档目录生成 > [TOC Generator for Markdown](https://github.com/dafi/tocmd-generator/)
+- 智能侧边栏 > [Theia Sticky Sidebar](https://github.com/WeCodePixels/theia-sticky-sidebar/)
+- 其他 > [rss](https://zh.wikipedia.org/wiki/RSS/ "简易信息聚合")
 
 <!-- ## Here's the posts list: -->
 
