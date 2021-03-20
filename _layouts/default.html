@@ -86,6 +86,18 @@
   </script>
   <!-- sidebar 智能侧边栏 -->
 
+  <!-- 网站数据统计脚本 -->
+  <!-- {% include JB/analytics %} -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KH5F33460C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KH5F33460C');
+  </script>
+  <!-- 网站数据统计脚本 -->
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -148,13 +160,11 @@
       <p><a href="http://www.beian.miit.gov.cn/" target="_blank" class="text">苏ICP备19021018号<br/></a></p>
       <p>
         <!-- Map Widget provided by ClustrMaps.com -->
-        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=IwC9fpnRbvTHZdspX1HWXkCwHCWI90zG4UCVL4SQ1X4"></script>
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=IwC9fpnRbvTHZdspX1HWXkCwHCWI90zG4UCVL4SQ1X4'></script>
       </p>
     </div>
   </div>
 
-  <!-- 网站数据统计脚本 -->
-  {% include JB/analytics %}
 
   
   <!-- Optional JavaScript -->
