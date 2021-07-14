@@ -1,11 +1,11 @@
 permalink: /:categories/:year/:month/:day/:title 
 
-title: 夏龙飞的博客
+title: Yet Another Personal Website
 description: A blog you've never seen before.
 author:
   name: 夏龙飞
   email: 1197393094@qq.com
-  github: iefgnolaix
+  github: xiafanglongfei
   weibo:
     username: "华之腾啊"
     link: https://weibo.com/u/2185032634/
